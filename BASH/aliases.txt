@@ -1,1581 +1,1586 @@
-	bashrc.write('alias [=\'exit\'\n')
-	bashrc.write('alias 2to3=\'exit\'\n')
-	bashrc.write('alias 2to3-2.7=\'exit\'\n')
-	bashrc.write('alias 2to3-3.4=\'exit\'\n')
-	bashrc.write('alias a2p=\'exit\'\n')
-	bashrc.write('alias aconnect=\'exit\'\n')
-	bashrc.write('alias acpi_listen=\'exit\'\n')
-	bashrc.write('alias activity-log-manager=\'exit\'\n')
-	bashrc.write('alias add-apt-repository=\'exit\'\n')
-	bashrc.write('alias addpart=\'exit\'\n')
-	bashrc.write('alias addr2line=\'exit\'\n')
-	bashrc.write('alias alsaloop=\'exit\'\n')
-	bashrc.write('alias alsamixer=\'exit\'\n')
-	bashrc.write('alias alsaucm=\'exit\'\n')
-	bashrc.write('alias amidi=\'exit\'\n')
-	bashrc.write('alias amixer=\'exit\'\n')
-	bashrc.write('alias amuFormat.sh=\'exit\'\n')
-	bashrc.write('alias apg=\'exit\'\n')
-	bashrc.write('alias apgbfm=\'exit\'\n')
-	bashrc.write('alias aplay=\'exit\'\n')
-	bashrc.write('alias aplaymidi=\'exit\'\n')
-	bashrc.write('alias apport-bug=\'exit\'\n')
-	bashrc.write('alias apport-cli=\'exit\'\n')
-	bashrc.write('alias apport-collect=\'exit\'\n')
-	bashrc.write('alias apport-unpack=\'exit\'\n')
-	bashrc.write('alias appres=\'exit\'\n')
-	bashrc.write('alias apropos=\'exit\'\n')
-	bashrc.write('alias apt=\'exit\'\n')
-	bashrc.write('alias apt-add-repository=\'exit\'\n')
-	bashrc.write('alias apt-cache=\'exit\'\n')
-	bashrc.write('alias apt-cdrom=\'exit\'\n')
-	bashrc.write('alias apt-config=\'exit\'\n')
-	bashrc.write('alias aptdcon=\'exit\'\n')
-	bashrc.write('alias apt-extracttemplates=\'exit\'\n')
-	bashrc.write('alias apt-ftparchive=\'exit\'\n')
-	bashrc.write('alias apt-get=\'exit\'\n')
-	bashrc.write('alias apt-key=\'exit\'\n')
-	bashrc.write('alias apt-mark=\'exit\'\n')
-	bashrc.write('alias apt-sortpkgs=\'exit\'\n')
-	bashrc.write('alias apturl=\'exit\'\n')
-	bashrc.write('alias apturl-gtk=\'exit\'\n')
-	bashrc.write('alias ar=\'exit\'\n')
-	bashrc.write('alias arch=\'exit\'\n')
-	bashrc.write('alias arecord=\'exit\'\n')
-	bashrc.write('alias arecordmidi=\'exit\'\n')
-	bashrc.write('alias arm2hpdl=\'exit\'\n')
-	bashrc.write('alias arping=\'exit\'\n')
-	bashrc.write('alias as=\'exit\'\n')
-	bashrc.write('alias aseqdump=\'exit\'\n')
-	bashrc.write('alias aseqnet=\'exit\'\n')
-	bashrc.write('alias aspell=\'exit\'\n')
-	bashrc.write('alias aspell-import=\'exit\'\n')
-	bashrc.write('alias assistant=\'exit\'\n')
-	bashrc.write('alias atobm=\'exit\'\n')
-	bashrc.write('alias avahi-browse=\'exit\'\n')
-	bashrc.write('alias avahi-browse-domains=\'exit\'\n')
-	bashrc.write('alias avahi-publish=\'exit\'\n')
-	bashrc.write('alias avahi-publish-address=\'exit\'\n')
-	bashrc.write('alias avahi-publish-service=\'exit\'\n')
-	bashrc.write('alias avahi-resolve=\'exit\'\n')
-	bashrc.write('alias avahi-resolve-address=\'exit\'\n')
-	bashrc.write('alias avahi-resolve-host-name=\'exit\'\n')
-	bashrc.write('alias avahi-set-host-name=\'exit\'\n')
-	bashrc.write('alias awk=\'exit\'\n')
-	bashrc.write('alias axi-cache=\'exit\'\n')
-	bashrc.write('alias baobab=\'exit\'\n')
-	bashrc.write('alias base64=\'exit\'\n')
-	bashrc.write('alias basename=\'exit\'\n')
-	bashrc.write('alias bash=\'exit\'\n')
-	bashrc.write('alias bashbug=\'exit\'\n')
-	bashrc.write('alias bc=\'exit\'\n')
-	bashrc.write('alias bdftopcf=\'exit\'\n')
-	bashrc.write('alias bdftruncate=\'exit\'\n')
-	bashrc.write('alias bitmap=\'exit\'\n')
-	bashrc.write('alias bluetooth-agent=\'exit\'\n')
-	bashrc.write('alias bluetooth-sendto=\'exit\'\n')
-	bashrc.write('alias bluetooth-wizard=\'exit\'\n')
-	bashrc.write('alias bluez-simple-agent=\'exit\'\n')
-	bashrc.write('alias bluez-simple-service=\'exit\'\n')
-	bashrc.write('alias bluez-test-adapter=\'exit\'\n')
-	bashrc.write('alias bluez-test-audio=\'exit\'\n')
-	bashrc.write('alias bluez-test-device=\'exit\'\n')
-	bashrc.write('alias bluez-test-discovery=\'exit\'\n')
-	bashrc.write('alias bluez-test-input=\'exit\'\n')
-	bashrc.write('alias bluez-test-manager=\'exit\'\n')
-	bashrc.write('alias bluez-test-network=\'exit\'\n')
-	bashrc.write('alias bluez-test-serial=\'exit\'\n')
-	bashrc.write('alias bluez-test-service=\'exit\'\n')
-	bashrc.write('alias bluez-test-telephony=\'exit\'\n')
-	bashrc.write('alias bmtoa=\'exit\'\n')
-	bashrc.write('alias brasero=\'exit\'\n')
-	bashrc.write('alias brltty-ctb=\'exit\'\n')
-	bashrc.write('alias brltty-trtxt=\'exit\'\n')
-	bashrc.write('alias brltty-ttb=\'exit\'\n')
-	bashrc.write('alias bsd-from=\'exit\'\n')
-	bashrc.write('alias bsd-write=\'exit\'\n')
-	bashrc.write('alias btcflash=\'exit\'\n')
-	bashrc.write('alias bunzip2=\'exit\'\n')
-	bashrc.write('alias busybox=\'exit\'\n')
-	bashrc.write('alias bzcat=\'exit\'\n')
-	bashrc.write('alias bzcmp=\'exit\'\n')
-	bashrc.write('alias bzdiff=\'exit\'\n')
-	bashrc.write('alias bzegrep=\'exit\'\n')
-	bashrc.write('alias bzexe=\'exit\'\n')
-	bashrc.write('alias bzfgrep=\'exit\'\n')
-	bashrc.write('alias bzgrep=\'exit\'\n')
-	bashrc.write('alias bzip2=\'exit\'\n')
-	bashrc.write('alias bzip2recover=\'exit\'\n')
-	bashrc.write('alias bzless=\'exit\'\n')
-	bashrc.write('alias bzmore=\'exit\'\n')
-	bashrc.write('alias c2ph=\'exit\'\n')
-	bashrc.write('alias c89=\'exit\'\n')
-	bashrc.write('alias c89-gcc=\'exit\'\n')
-	bashrc.write('alias c99=\'exit\'\n')
-	bashrc.write('alias c99-gcc=\'exit\'\n')
-	bashrc.write('alias cal=\'exit\'\n')
-	bashrc.write('alias calendar=\'exit\'\n')
-	bashrc.write('alias calibrate_ppa=\'exit\'\n')
-	bashrc.write('alias canberra-gtk-play=\'exit\'\n')
-	bashrc.write('alias cancel=\'exit\'\n')
-	bashrc.write('alias canonical-certification-server=\'exit\'\n')
-	bashrc.write('alias canonical-driver-test-suite-cli=\'exit\'\n')
-	bashrc.write('alias captoinfo=\'exit\'\n')
-	bashrc.write('alias cat=\'exit\'\n')
-	bashrc.write('alias catchsegv=\'exit\'\n')
-	bashrc.write('alias catman=\'exit\'\n')
-	bashrc.write('alias cautious-launcher=\'exit\'\n')
-	bashrc.write('alias cc=\'exit\'\n')
-	bashrc.write('alias cd-create-profile=\'exit\'\n')
-	bashrc.write('alias cd-fix-profile=\'exit\'\n')
-	bashrc.write('alias cd-iccdump=\'exit\'\n')
-	bashrc.write('alias cdrecord=\'exit\'\n')
-	bashrc.write('alias c++filt=\'exit\'\n')
-	bashrc.write('alias chacl=\'exit\'\n')
-	bashrc.write('alias chacl=\'exit\'\n')
-	bashrc.write('alias chage=\'exit\'\n')
-	bashrc.write('alias chardet=\'exit\'\n')
-	bashrc.write('alias chardet3=\'exit\'\n')
-	bashrc.write('alias chardetect3=\'exit\'\n')
-	bashrc.write('alias charmap=\'exit\'\n')
-	bashrc.write('alias chattr=\'exit\'\n')
-	bashrc.write('alias chcon=\'exit\'\n')
-	bashrc.write('alias checkbox=\'exit\'\n')
-	bashrc.write('alias checkbox-cli=\'exit\'\n')
-	bashrc.write('alias checkbox-gui=\'exit\'\n')
-	bashrc.write('alias check-language-support=\'exit\'\n')
-	bashrc.write('alias cheese=\'exit\'\n')
-	bashrc.write('alias chfn=\'exit\'\n')
-	bashrc.write('alias chgrp=\'exit\'\n')
-	bashrc.write('alias chkdupexe=\'exit\'\n')
-	bashrc.write('alias chmod=\'exit\'\n')
-	bashrc.write('alias chown=\'exit\'\n')
-	bashrc.write('alias chromium-browser=\'exit\'\n')
-	bashrc.write('alias chrt=\'exit\'\n')
-	bashrc.write('alias chsh=\'exit\'\n')
-	bashrc.write('alias chvt=\'exit\'\n')
-	bashrc.write('alias cifsdd=\'exit\'\n')
-	bashrc.write('alias ciptool=\'exit\'\n')
-	bashrc.write('alias ckbcomp=\'exit\'\n')
-	bashrc.write('alias cksum=\'exit\'\n')
-	bashrc.write('alias clear=\'exit\'\n')
-	bashrc.write('alias clear_console=\'exit\'\n')
-	bashrc.write('alias cmp=\'exit\'\n')
-	bashrc.write('alias codepage=\'exit\'\n')
-	bashrc.write('alias col=\'exit\'\n')
-	bashrc.write('alias colcrt=\'exit\'\n')
-	bashrc.write('alias colormgr=\'exit\'\n')
-	bashrc.write('alias colrm=\'exit\'\n')
-	bashrc.write('alias column=\'exit\'\n')
-	bashrc.write('alias combinediff=\'exit\'\n')
-	bashrc.write('alias comm=\'exit\'\n')
-	bashrc.write('alias compiz=\'exit\'\n')
-	bashrc.write('alias compiz-decorator=\'exit\'\n')
-	bashrc.write('alias compose=\'exit\'\n')
-	bashrc.write('alias config_data=\'exit\'\n')
-	bashrc.write('alias corelist=\'exit\'\n')
-	bashrc.write('alias cp=\'exit\'\n')
-	bashrc.write('alias cpan=\'exit\'\n')
-	bashrc.write('alias cpan2dist=\'exit\'\n')
-	bashrc.write('alias cpanp=\'exit\'\n')
-	bashrc.write('alias cpanp-run-perl=\'exit\'\n')
-	bashrc.write('alias cpio=\'exit\'\n')
-	bashrc.write('alias cpp=\'exit\'\n')
-	bashrc.write('alias cpp-4.8=\'exit\'\n')
-	bashrc.write('alias crc32=\'exit\'\n')
-	bashrc.write('alias credentials-preferences=\'exit\'\n')
-	bashrc.write('alias c_rehash=\'exit\'\n')
-	bashrc.write('alias crontab=\'exit\'\n')
-	bashrc.write('alias csplit=\'exit\'\n')
-	bashrc.write('alias ctstat=\'exit\'\n')
-	bashrc.write('alias cups-calibrate=\'exit\'\n')
-	bashrc.write('alias cupstestdsc=\'exit\'\n')
-	bashrc.write('alias cupstestppd=\'exit\'\n')
-	bashrc.write('alias cut=\'exit\'\n')
-	bashrc.write('alias cvt=\'exit\'\n')
-	bashrc.write('alias dash=\'exit\'\n')
-	bashrc.write('alias date=\'exit\'\n')
-	bashrc.write('alias dbus-cleanup-sockets=\'exit\'\n')
-	bashrc.write('alias dbus-daemon=\'exit\'\n')
-	bashrc.write('alias dbus-launch=\'exit\'\n')
-	bashrc.write('alias dbus-monitor=\'exit\'\n')
-	bashrc.write('alias dbus-send=\'exit\'\n')
-	bashrc.write('alias dbus-uuidgen=\'exit\'\n')
-	bashrc.write('alias dbwrap_tool=\'exit\'\n')
-	bashrc.write('alias dc=\'exit\'\n')
-	bashrc.write('alias dconf=\'exit\'\n')
-	bashrc.write('alias dd=\'exit\'\n')
-	bashrc.write('alias ddate=\'exit\'\n')
-	bashrc.write('alias deallocvt=\'exit\'\n')
-	bashrc.write('alias debconf=\'exit\'\n')
-	bashrc.write('alias debconf-apt-progress=\'exit\'\n')
-	bashrc.write('alias debconf-communicate=\'exit\'\n')
-	bashrc.write('alias debconf-copydb=\'exit\'\n')
-	bashrc.write('alias debconf-escape=\'exit\'\n')
-	bashrc.write('alias debconf-set-selections=\'exit\'\n')
-	bashrc.write('alias debconf-show=\'exit\'\n')
-	bashrc.write('alias deb-systemd-helper=\'exit\'\n')
-	bashrc.write('alias deb-systemd-invoke=\'exit\'\n')
-	bashrc.write('alias dehtmldiff=\'exit\'\n')
-	bashrc.write('alias deja-dup=\'exit\'\n')
-	bashrc.write('alias deja-dup-preferences=\'exit\'\n')
-	bashrc.write('alias delpart=\'exit\'\n')
-	bashrc.write('alias designer=\'exit\'\n')
-	bashrc.write('alias desktop-file-edit=\'exit\'\n')
-	bashrc.write('alias desktop-file-install=\'exit\'\n')
-	bashrc.write('alias desktop-file-validate=\'exit\'\n')
-	bashrc.write('alias devdump=\'exit\'\n')
-	bashrc.write('alias df=\'exit\'\n')
-	bashrc.write('alias dfutool=\'exit\'\n')
-	bashrc.write('alias dh_bash-completion=\'exit\'\n')
-	bashrc.write('alias dh_installxmlcatalogs=\'exit\'\n')
-	bashrc.write('alias dh_pypy=\'exit\'\n')
-	bashrc.write('alias dh_python2=\'exit\'\n')
-	bashrc.write('alias dh_python3=\'exit\'\n')
-	bashrc.write('alias dialog=\'exit\'\n')
-	bashrc.write('alias diff=\'exit\'\n')
-	bashrc.write('alias diff3=\'exit\'\n')
-	bashrc.write('alias diffstat=\'exit\'\n')
-	bashrc.write('alias dig=\'exit\'\n')
-	bashrc.write('alias dir=\'exit\'\n')
-	bashrc.write('alias dircolors=\'exit\'\n')
-	bashrc.write('alias dirname=\'exit\'\n')
-	bashrc.write('alias dirsplit=\'exit\'\n')
-	bashrc.write('alias dmesg=\'exit\'\n')
-	bashrc.write('alias dm-tool=\'exit\'\n')
-	bashrc.write('alias dnsdomainname=\'exit\'\n')
-	bashrc.write('alias domainname=\'exit\'\n')
-	bashrc.write('alias do-release-upgrade=\'exit\'\n')
-	bashrc.write('alias dotlockfile=\'exit\'\n')
-	bashrc.write('alias dpkg=\'exit\'\n')
-	bashrc.write('alias dpkg-deb=\'exit\'\n')
-	bashrc.write('alias dpkg-divert=\'exit\'\n')
-	bashrc.write('alias dpkg-log-summary=\'exit\'\n')
-	bashrc.write('alias dpkg-maintscript-helper=\'exit\'\n')
-	bashrc.write('alias dpkg-query=\'exit\'\n')
-	bashrc.write('alias dpkg-split=\'exit\'\n')
-	bashrc.write('alias dpkg-statoverride=\'exit\'\n')
-	bashrc.write('alias dpkg-trigger=\'exit\'\n')
-	bashrc.write('alias du=\'exit\'\n')
-	bashrc.write('alias dumpkeys=\'exit\'\n')
-	bashrc.write('alias dumpkeys=\'exit\'\n')
-	bashrc.write('alias duplicity=\'exit\'\n')
-	bashrc.write('alias dvd-ram-control=\'exit\'\n')
-	bashrc.write('alias dvd+rw-booktype=\'exit\'\n')
-	bashrc.write('alias dvd+rw-format=\'exit\'\n')
-	bashrc.write('alias dvd+rw-mediainfo=\'exit\'\n')
-	bashrc.write('alias dvipdf=\'exit\'\n')
-	bashrc.write('alias dwp=\'exit\'\n')
-	bashrc.write('alias echo=\'exit\'\n')
-	bashrc.write('alias ed=\'exit\'\n')
-	bashrc.write('alias edit=\'exit\'\n')
-	bashrc.write('alias editdiff=\'exit\'\n')
-	bashrc.write('alias editor=\'exit\'\n')
-	bashrc.write('alias editres=\'exit\'\n')
-	bashrc.write('alias egrep=\'exit\'\n')
-	bashrc.write('alias eject=\'exit\'\n')
-	bashrc.write('alias elfedit=\'exit\'\n')
-	bashrc.write('alias empathy=\'exit\'\n')
-	bashrc.write('alias empathy-accounts=\'exit\'\n')
-	bashrc.write('alias empathy-debugger=\'exit\'\n')
-	bashrc.write('alias enc2xs=\'exit\'\n')
-	bashrc.write('alias enchant=\'exit\'\n')
-	bashrc.write('alias enchant-lsmod=\'exit\'\n')
-	bashrc.write('alias env=\'exit\'\n')
-	bashrc.write('alias envsubst=\'exit\'\n')
-	bashrc.write('alias eog=\'exit\'\n')
-	bashrc.write('alias eps2eps=\'exit\'\n')
-	bashrc.write('alias eqn=\'exit\'\n')
-	bashrc.write('alias esc-m=\'exit\'\n')
-	bashrc.write('alias evince=\'exit\'\n')
-	bashrc.write('alias evince-previewer=\'exit\'\n')
-	bashrc.write('alias evince-thumbnailer=\'exit\'\n')
-	bashrc.write('alias ex=\'exit\'\n')
-	bashrc.write('alias expand=\'exit\'\n')
-	bashrc.write('alias expiry=\'exit\'\n')
-	bashrc.write('alias expr=\'exit\'\n')
-	bashrc.write('alias factor=\'exit\'\n')
-	bashrc.write('alias faillog=\'exit\'\n')
-	bashrc.write('alias fallocate=\'exit\'\n')
-	bashrc.write('alias false=\'exit\'\n')
-	bashrc.write('alias fc-cache=\'exit\'\n')
-	bashrc.write('alias fc-cat=\'exit\'\n')
-	bashrc.write('alias fc-list=\'exit\'\n')
-	bashrc.write('alias fc-match=\'exit\'\n')
-	bashrc.write('alias fc-pattern=\'exit\'\n')
-	bashrc.write('alias fc-query=\'exit\'\n')
-	bashrc.write('alias fc-scan=\'exit\'\n')
-	bashrc.write('alias fc-validate=\'exit\'\n')
-	bashrc.write('alias fgconsole=\'exit\'\n')
-	bashrc.write('alias fgrep=\'exit\'\n')
-	bashrc.write('alias file=\'exit\'\n')
-	bashrc.write('alias file-roller=\'exit\'\n')
-	bashrc.write('alias filterdiff=\'exit\'\n')
-	bashrc.write('alias find=\'exit\'\n')
-	bashrc.write('alias find2perl=\'exit\'\n')
-	bashrc.write('alias findmnt=\'exit\'\n')
-	bashrc.write('alias firefox=\'exit\'\n')
-	bashrc.write('alias fixcvsdiff=\'exit\'\n')
-	bashrc.write('alias fix-qdf=\'exit\'\n')
-	bashrc.write('alias flipdiff=\'exit\'\n')
-	bashrc.write('alias flock=\'exit\'\n')
-	bashrc.write('alias fmt=\'exit\'\n')
-	bashrc.write('alias fold=\'exit\'\n')
-	bashrc.write('alias font2c=\'exit\'\n')
-	bashrc.write('alias fonttosfnt=\'exit\'\n')
-	bashrc.write('alias foo2hbpl2=\'exit\'\n')
-	bashrc.write('alias foo2hbpl2-wrapper=\'exit\'\n')
-	bashrc.write('alias foo2hiperc=\'exit\'\n')
-	bashrc.write('alias foo2hiperc-wrapper=\'exit\'\n')
-	bashrc.write('alias foo2hp=\'exit\'\n')
-	bashrc.write('alias foo2hp2600-wrapper=\'exit\'\n')
-	bashrc.write('alias foo2lava=\'exit\'\n')
-	bashrc.write('alias foo2lava-wrapper=\'exit\'\n')
-	bashrc.write('alias foo2oak=\'exit\'\n')
-	bashrc.write('alias foo2oak-wrapper=\'exit\'\n')
-	bashrc.write('alias foo2qpdl=\'exit\'\n')
-	bashrc.write('alias foo2qpdl-wrapper=\'exit\'\n')
-	bashrc.write('alias foo2slx=\'exit\'\n')
-	bashrc.write('alias foo2slx-wrapper=\'exit\'\n')
-	bashrc.write('alias foo2xqx=\'exit\'\n')
-	bashrc.write('alias foo2xqx-wrapper=\'exit\'\n')
-	bashrc.write('alias foo2zjs=\'exit\'\n')
-	bashrc.write('alias foo2zjs-icc2ps=\'exit\'\n')
-	bashrc.write('alias foo2zjs-pstops=\'exit\'\n')
-	bashrc.write('alias foo2zjs-wrapper=\'exit\'\n')
-	bashrc.write('alias free=\'exit\'\n')
-	bashrc.write('alias friends-dispatcher=\'exit\'\n')
-	bashrc.write('alias friends-service=\'exit\'\n')
-	bashrc.write('alias from=\'exit\'\n')
-	bashrc.write('alias fslsfonts=\'exit\'\n')
-	bashrc.write('alias fstobdf=\'exit\'\n')
-	bashrc.write('alias ftp=\'exit\'\n')
-	bashrc.write('alias funzip=\'exit\'\n')
-	bashrc.write('alias fuser=\'exit\'\n')
-	bashrc.write('alias fusermount=\'exit\'\n')
-	bashrc.write('alias gamma4scanimage=\'exit\'\n')
-	bashrc.write('alias gatttool=\'exit\'\n')
-	bashrc.write('alias gbr3=\'exit\'\n')
-	bashrc.write('alias gbx3=\'exit\'\n')
-	bashrc.write('alias gcalccmd=\'exit\'\n')
-	bashrc.write('alias gcc=\'exit\'\n')
-	bashrc.write('alias gcc-4.8=\'exit\'\n')
-	bashrc.write('alias gcc-ar=\'exit\'\n')
-	bashrc.write('alias gcc-ar-4.8=\'exit\'\n')
-	bashrc.write('alias gcc-nm=\'exit\'\n')
-	bashrc.write('alias gcc-nm-4.8=\'exit\'\n')
-	bashrc.write('alias gcc-ranlib=\'exit\'\n')
-	bashrc.write('alias gcc-ranlib-4.8=\'exit\'\n')
-	bashrc.write('alias gconf-merge-tree=\'exit\'\n')
-	bashrc.write('alias gconftool=\'exit\'\n')
-	bashrc.write('alias gconftool-2=\'exit\'\n')
-	bashrc.write('alias gcore=\'exit\'\n')
-	bashrc.write('alias gcov=\'exit\'\n')
-	bashrc.write('alias gcov-4.8=\'exit\'\n')
-	bashrc.write('alias gcr-viewer=\'exit\'\n')
-	bashrc.write('alias gdb=\'exit\'\n')
-	bashrc.write('alias gdbtui=\'exit\'\n')
-	bashrc.write('alias gdbus=\'exit\'\n')
-	bashrc.write('alias gdialog=\'exit\'\n')
-	bashrc.write('alias gedit=\'exit\'\n')
-	bashrc.write('alias gencat=\'exit\'\n')
-	bashrc.write('alias genisoimage=\'exit\'\n')
-	bashrc.write('alias geqn=\'exit\'\n')
-	bashrc.write('alias getconf=\'exit\'\n')
-	bashrc.write('alias geteltorito=\'exit\'\n')
-	bashrc.write('alias getent=\'exit\'\n')
-	bashrc.write('alias getfacl=\'exit\'\n')
-	bashrc.write('alias getfacl=\'exit\'\n')
-	bashrc.write('alias gethostip=\'exit\'\n')
-	bashrc.write('alias getkeycodes=\'exit\'\n')
-	bashrc.write('alias getopt=\'exit\'\n')
-	bashrc.write('alias gettext=\'exit\'\n')
-	bashrc.write('alias gettextize=\'exit\'\n')
-	bashrc.write('alias gettext.sh=\'exit\'\n')
-	bashrc.write('alias ghostscript=\'exit\'\n')
-	bashrc.write('alias ginstall-info=\'exit\'\n')
-	bashrc.write('alias gio-querymodules=\'exit\'\n')
-	bashrc.write('alias gipddecode=\'exit\'\n')
-	bashrc.write('alias gkbd-keyboard-display=\'exit\'\n')
-	bashrc.write('alias glib-compile-resources=\'exit\'\n')
-	bashrc.write('alias glib-compile-schemas=\'exit\'\n')
-	bashrc.write('alias gnome-calculator=\'exit\'\n')
-	bashrc.write('alias gnome-character-map=\'exit\'\n')
-	bashrc.write('alias gnome-contacts=\'exit\'\n')
-	bashrc.write('alias gnome-disk-image-mounter=\'exit\'\n')
-	bashrc.write('alias gnome-disks=\'exit\'\n')
-	bashrc.write('alias gnome-file-share-properties=\'exit\'\n')
-	bashrc.write('alias gnome-font-viewer=\'exit\'\n')
-	bashrc.write('alias gnome-help=\'exit\'\n')
-	bashrc.write('alias gnome-keyring=\'exit\'\n')
-	bashrc.write('alias gnome-keyring-3=\'exit\'\n')
-	bashrc.write('alias gnome-keyring-daemon=\'exit\'\n')
-	bashrc.write('alias gnome-language-selector=\'exit\'\n')
-	bashrc.write('alias gnome-power-statistics=\'exit\'\n')
-	bashrc.write('alias gnome-screensaver=\'exit\'\n')
-	bashrc.write('alias gnome-screensaver-command=\'exit\'\n')
-	bashrc.write('alias gnome-screenshot=\'exit\'\n')
-	bashrc.write('alias gnome-session=\'exit\'\n')
-	bashrc.write('alias gnome-session-inhibit=\'exit\'\n')
-	bashrc.write('alias gnome-session-properties=\'exit\'\n')
-	bashrc.write('alias gnome-session-quit=\'exit\'\n')
-	bashrc.write('alias gnome-system-log=\'exit\'\n')
-	bashrc.write('alias gnome-system-log-pkexec=\'exit\'\n')
-	bashrc.write('alias gnome-system-monitor=\'exit\'\n')
-	bashrc.write('alias gnome-terminal=\'exit\'\n')
-	bashrc.write('alias gnome-terminal.wrapper=\'exit\'\n')
-	bashrc.write('alias gnome-text-editor=\'exit\'\n')
-	bashrc.write('alias gnome-thumbnail-font=\'exit\'\n')
-	bashrc.write('alias gnome-www-browser=\'exit\'\n')
-	bashrc.write('alias gold=\'exit\'\n')
-	bashrc.write('alias gparted-pkexec=\'exit\'\n')
-	bashrc.write('alias gpasswd=\'exit\'\n')
-	bashrc.write('alias gpg=\'exit\'\n')
-	bashrc.write('alias gpgsplit=\'exit\'\n')
-	bashrc.write('alias gpgv=\'exit\'\n')
-	bashrc.write('alias gpg-zip=\'exit\'\n')
-	bashrc.write('alias gpic=\'exit\'\n')
-	bashrc.write('alias gprof=\'exit\'\n')
-	bashrc.write('alias gpu-manager=\'exit\'\n')
-	bashrc.write('alias grep=\'exit\'\n')
-	bashrc.write('alias grepdiff=\'exit\'\n')
-	bashrc.write('alias gresource=\'exit\'\n')
-	bashrc.write('alias groff=\'exit\'\n')
-	bashrc.write('alias grog=\'exit\'\n')
-	bashrc.write('alias grops=\'exit\'\n')
-	bashrc.write('alias grotty=\'exit\'\n')
-	bashrc.write('alias groups=\'exit\'\n')
-	bashrc.write('alias growisofs=\'exit\'\n')
-	bashrc.write('alias grub-editenv=\'exit\'\n')
-	bashrc.write('alias grub-file=\'exit\'\n')
-	bashrc.write('alias grub-fstest=\'exit\'\n')
-	bashrc.write('alias grub-glue-efi=\'exit\'\n')
-	bashrc.write('alias grub-kbdcomp=\'exit\'\n')
-	bashrc.write('alias grub-menulst2cfg=\'exit\'\n')
-	bashrc.write('alias grub-mkfont=\'exit\'\n')
-	bashrc.write('alias grub-mkimage=\'exit\'\n')
-	bashrc.write('alias grub-mklayout=\'exit\'\n')
-	bashrc.write('alias grub-mknetdir=\'exit\'\n')
-	bashrc.write('alias grub-mkpasswd-pbkdf2=\'exit\'\n')
-	bashrc.write('alias grub-mkrelpath=\'exit\'\n')
-	bashrc.write('alias grub-mkrescue=\'exit\'\n')
-	bashrc.write('alias grub-mkstandalone=\'exit\'\n')
-	bashrc.write('alias grub-mount=\'exit\'\n')
-	bashrc.write('alias grub-ntldr-img=\'exit\'\n')
-	bashrc.write('alias grub-render-label=\'exit\'\n')
-	bashrc.write('alias grub-script-check=\'exit\'\n')
-	bashrc.write('alias grub-syslinux2cfg=\'exit\'\n')
-	bashrc.write('alias gs=\'exit\'\n')
-	bashrc.write('alias gsbj=\'exit\'\n')
-	bashrc.write('alias gsdj=\'exit\'\n')
-	bashrc.write('alias gsdj500=\'exit\'\n')
-	bashrc.write('alias gsettings=\'exit\'\n')
-	bashrc.write('alias gsettings-data-convert=\'exit\'\n')
-	bashrc.write('alias gsettings-schema-convert=\'exit\'\n')
-	bashrc.write('alias gslj=\'exit\'\n')
-	bashrc.write('alias gslp=\'exit\'\n')
-	bashrc.write('alias gsnd=\'exit\'\n')
-	bashrc.write('alias gst-discoverer-0.10=\'exit\'\n')
-	bashrc.write('alias gst-discoverer-1.0=\'exit\'\n')
-	bashrc.write('alias gst-feedback-0.10=\'exit\'\n')
-	bashrc.write('alias gst-inspect-0.10=\'exit\'\n')
-	bashrc.write('alias gst-inspect-1.0=\'exit\'\n')
-	bashrc.write('alias gst-install=\'exit\'\n')
-	bashrc.write('alias gst-launch-0.10=\'exit\'\n')
-	bashrc.write('alias gst-launch-1.0=\'exit\'\n')
-	bashrc.write('alias gst-play-1.0=\'exit\'\n')
-	bashrc.write('alias gstreamer-codec-install=\'exit\'\n')
-	bashrc.write('alias gst-typefind-0.10=\'exit\'\n')
-	bashrc.write('alias gst-typefind-1.0=\'exit\'\n')
-	bashrc.write('alias gst-visualise-0.10=\'exit\'\n')
-	bashrc.write('alias gst-xmlinspect-0.10=\'exit\'\n')
-	bashrc.write('alias gst-xmllaunch-0.10=\'exit\'\n')
-	bashrc.write('alias gtbl=\'exit\'\n')
-	bashrc.write('alias gtf=\'exit\'\n')
-	bashrc.write('alias gtk-launch=\'exit\'\n')
-	bashrc.write('alias gtk-update-icon-cache=\'exit\'\n')
-	bashrc.write('alias gtk-update-icon-cache-3.0=\'exit\'\n')
-	bashrc.write('alias gtk-window-decorator=\'exit\'\n')
-	bashrc.write('alias gucharmap=\'exit\'\n')
-	bashrc.write('alias guild=\'exit\'\n')
-	bashrc.write('alias gunzip=\'exit\'\n')
-	bashrc.write('alias gvfs-cat=\'exit\'\n')
-	bashrc.write('alias gvfs-copy=\'exit\'\n')
-	bashrc.write('alias gvfs-info=\'exit\'\n')
-	bashrc.write('alias gvfs-less=\'exit\'\n')
-	bashrc.write('alias gvfs-ls=\'exit\'\n')
-	bashrc.write('alias gvfs-mime=\'exit\'\n')
-	bashrc.write('alias gvfs-mkdir=\'exit\'\n')
-	bashrc.write('alias gvfs-monitor-dir=\'exit\'\n')
-	bashrc.write('alias gvfs-monitor-file=\'exit\'\n')
-	bashrc.write('alias gvfs-mount=\'exit\'\n')
-	bashrc.write('alias gvfs-move=\'exit\'\n')
-	bashrc.write('alias gvfs-open=\'exit\'\n')
-	bashrc.write('alias gvfs-rename=\'exit\'\n')
-	bashrc.write('alias gvfs-rm=\'exit\'\n')
-	bashrc.write('alias gvfs-save=\'exit\'\n')
-	bashrc.write('alias gvfs-set-attribute=\'exit\'\n')
-	bashrc.write('alias gvfs-trash=\'exit\'\n')
-	bashrc.write('alias gvfs-tree=\'exit\'\n')
-	bashrc.write('alias gzexe=\'exit\'\n')
-	bashrc.write('alias gzip=\'exit\'\n')
-	bashrc.write('alias h2ph=\'exit\'\n')
-	bashrc.write('alias h2xs=\'exit\'\n')
-	bashrc.write('alias hardening-check=\'exit\'\n')
-	bashrc.write('alias hbpldecode=\'exit\'\n')
-	bashrc.write('alias hcitool=\'exit\'\n')
-	bashrc.write('alias hd=\'exit\'\n')
-	bashrc.write('alias head=\'exit\'\n')
-	bashrc.write('alias helpztags=\'exit\'\n')
-	bashrc.write('alias hexdump=\'exit\'\n')
-	bashrc.write('alias hipercdecode=\'exit\'\n')
-	bashrc.write('alias host=\'exit\'\n')
-	bashrc.write('alias hostid=\'exit\'\n')
-	bashrc.write('alias hostname=\'exit\'\n')
-	bashrc.write('alias hostnamectl=\'exit\'\n')
-	bashrc.write('alias hp-align=\'exit\'\n')
-	bashrc.write('alias hp-check=\'exit\'\n')
-	bashrc.write('alias hp-clean=\'exit\'\n')
-	bashrc.write('alias hp-colorcal=\'exit\'\n')
-	bashrc.write('alias hp-config_usb_printer=\'exit\'\n')
-	bashrc.write('alias hp-doctor=\'exit\'\n')
-	bashrc.write('alias hp-firmware=\'exit\'\n')
-	bashrc.write('alias hp-hpdio=\'exit\'\n')
-	bashrc.write('alias hp-info=\'exit\'\n')
-	bashrc.write('alias hp-levels=\'exit\'\n')
-	bashrc.write('alias hp-logcapture=\'exit\'\n')
-	bashrc.write('alias hp-makeuri=\'exit\'\n')
-	bashrc.write('alias hp-pkservice=\'exit\'\n')
-	bashrc.write('alias hp-plugin=\'exit\'\n')
-	bashrc.write('alias hp-plugin-ubuntu=\'exit\'\n')
-	bashrc.write('alias hp-probe=\'exit\'\n')
-	bashrc.write('alias hp-query=\'exit\'\n')
-	bashrc.write('alias hp-scan=\'exit\'\n')
-	bashrc.write('alias hp-setup=\'exit\'\n')
-	bashrc.write('alias hp-testpage=\'exit\'\n')
-	bashrc.write('alias hp-timedate=\'exit\'\n')
-	bashrc.write('alias hp-unload=\'exit\'\n')
-	bashrc.write('alias i386=\'exit\'\n')
-	bashrc.write('alias ibus=\'exit\'\n')
-	bashrc.write('alias ibus-daemon=\'exit\'\n')
-	bashrc.write('alias ibus-setup=\'exit\'\n')
-	bashrc.write('alias ibus-table-createdb=\'exit\'\n')
-	bashrc.write('alias iceauth=\'exit\'\n')
-	bashrc.write('alias ico=\'exit\'\n')
-	bashrc.write('alias iconv=\'exit\'\n')
-	bashrc.write('alias id=\'exit\'\n')
-	bashrc.write('alias iecset=\'exit\'\n')
-	bashrc.write('alias ijs_pxljr=\'exit\'\n')
-	bashrc.write('alias im-config=\'exit\'\n')
-	bashrc.write('alias im-launch=\'exit\'\n')
-	bashrc.write('alias info=\'exit\'\n')
-	bashrc.write('alias infobrowser=\'exit\'\n')
-	bashrc.write('alias infocmp=\'exit\'\n')
-	bashrc.write('alias infokey=\'exit\'\n')
-	bashrc.write('alias infotocap=\'exit\'\n')
-	bashrc.write('alias init-checkconf=\'exit\'\n')
-	bashrc.write('alias initctl2dot=\'exit\'\n')
-	bashrc.write('alias inputattach=\'exit\'\n')
-	bashrc.write('alias install=\'exit\'\n')
-	bashrc.write('alias install-info=\'exit\'\n')
-	bashrc.write('alias install-printerdriver=\'exit\'\n')
-	bashrc.write('alias instmodsh=\'exit\'\n')
-	bashrc.write('alias intel_audio_dump=\'exit\'\n')
-	bashrc.write('alias intel_backlight=\'exit\'\n')
-	bashrc.write('alias intel_bios_dumper=\'exit\'\n')
-	bashrc.write('alias intel_bios_reader=\'exit\'\n')
-	bashrc.write('alias intel_disable_clock_gating=\'exit\'\n')
-	bashrc.write('alias intel_dpio_read=\'exit\'\n')
-	bashrc.write('alias intel_dpio_write=\'exit\'\n')
-	bashrc.write('alias intel_error_decode=\'exit\'\n')
-	bashrc.write('alias intel_forcewaked=\'exit\'\n')
-	bashrc.write('alias intel_gpu_abrt=\'exit\'\n')
-	bashrc.write('alias intel_gpu_time=\'exit\'\n')
-	bashrc.write('alias intel_gpu_top=\'exit\'\n')
-	bashrc.write('alias intel_gtt=\'exit\'\n')
-	bashrc.write('alias intel_l3_parity=\'exit\'\n')
-	bashrc.write('alias intel_reg_checker=\'exit\'\n')
-	bashrc.write('alias intel_reg_dumper=\'exit\'\n')
-	bashrc.write('alias intel_reg_read=\'exit\'\n')
-	bashrc.write('alias intel_reg_snapshot=\'exit\'\n')
-	bashrc.write('alias intel_reg_write=\'exit\'\n')
-	bashrc.write('alias intel_sprite_on=\'exit\'\n')
-	bashrc.write('alias intel_stepping=\'exit\'\n')
-	bashrc.write('alias intel_upload_blit_large=\'exit\'\n')
-	bashrc.write('alias intel_upload_blit_large_gtt=\'exit\'\n')
-	bashrc.write('alias intel_upload_blit_large_map=\'exit\'\n')
-	bashrc.write('alias intel_upload_blit_small=\'exit\'\n')
-	bashrc.write('alias interdiff=\'exit\'\n')
-	bashrc.write('alias ionice=\'exit\'\n')
-	bashrc.write('alias ip=\'exit\'\n')
-	bashrc.write('alias ipcmk=\'exit\'\n')
-	bashrc.write('alias ipcrm=\'exit\'\n')
-	bashrc.write('alias ipcs=\'exit\'\n')
-	bashrc.write('alias ipod-read-sysinfo-extended=\'exit\'\n')
-	bashrc.write('alias ipod-time-sync=\'exit\'\n')
-	bashrc.write('alias ippfind=\'exit\'\n')
-	bashrc.write('alias ipptool=\'exit\'\n')
-	bashrc.write('alias iproxy=\'exit\'\n')
-	bashrc.write('alias iptables-xml=\'exit\'\n')
-	bashrc.write('alias ischroot=\'exit\'\n')
-	bashrc.write('alias isdv4-serial-debugger=\'exit\'\n')
-	bashrc.write('alias isodump=\'exit\'\n')
-	bashrc.write('alias isohybrid=\'exit\'\n')
-	bashrc.write('alias isohybrid.pl=\'exit\'\n')
-	bashrc.write('alias isoinfo=\'exit\'\n')
-	bashrc.write('alias isovfy=\'exit\'\n')
-	bashrc.write('alias ispell-wrapper=\'exit\'\n')
-	bashrc.write('alias join=\'exit\'\n')
-	bashrc.write('alias json_pp=\'exit\'\n')
-	bashrc.write('alias kbdinfo=\'exit\'\n')
-	bashrc.write('alias kbd_mode=\'exit\'\n')
-	bashrc.write('alias kerneloops-submit=\'exit\'\n')
-	bashrc.write('alias kill=\'exit\'\n')
-	bashrc.write('alias killall=\'exit\'\n')
-	bashrc.write('alias kmod=\'exit\'\n')
-	bashrc.write('alias koi8rxterm=\'exit\'\n')
-	bashrc.write('alias l2ping=\'exit\'\n')
-	bashrc.write('alias l2test=\'exit\'\n')
-	bashrc.write('alias landscape-client-ui-install=\'exit\'\n')
-	bashrc.write('alias last=\'exit\'\n')
-	bashrc.write('alias lastb=\'exit\'\n')
-	bashrc.write('alias lastlog=\'exit\'\n')
-	bashrc.write('alias lavadecode=\'exit\'\n')
-	bashrc.write('alias lcf=\'exit\'\n')
-	bashrc.write('alias lconvert=\'exit\'\n')
-	bashrc.write('alias ld=\'exit\'\n')
-	bashrc.write('alias ld.bfd=\'exit\'\n')
-	bashrc.write('alias ldd=\'exit\'\n')
-	bashrc.write('alias ld.gold=\'exit\'\n')
-	bashrc.write('alias less=\'exit\'\n')
-	bashrc.write('alias less=\'exit\'\n')
-	bashrc.write('alias lessecho=\'exit\'\n')
-	bashrc.write('alias lessecho=\'exit\'\n')
-	bashrc.write('alias lessfile=\'exit\'\n')
-	bashrc.write('alias lessfile=\'exit\'\n')
-	bashrc.write('alias lesskey=\'exit\'\n')
-	bashrc.write('alias lesskey=\'exit\'\n')
-	bashrc.write('alias lesspipe=\'exit\'\n')
-	bashrc.write('alias lesspipe=\'exit\'\n')
-	bashrc.write('alias lexgrog=\'exit\'\n')
-	bashrc.write('alias libnetcfg=\'exit\'\n')
-	bashrc.write('alias libreoffice=\'exit\'\n')
-	bashrc.write('alias line=\'exit\'\n')
-	bashrc.write('alias linguist=\'exit\'\n')
-	bashrc.write('alias link=\'exit\'\n')
-	bashrc.write('alias lintian=\'exit\'\n')
-	bashrc.write('alias lintian-info=\'exit\'\n')
-	bashrc.write('alias linux32=\'exit\'\n')
-	bashrc.write('alias linux64=\'exit\'\n')
-	bashrc.write('alias linux-boot-prober=\'exit\'\n')
-	bashrc.write('alias listres=\'exit\'\n')
-	bashrc.write('alias ln=\'exit\'\n')
-	bashrc.write('alias lnstat=\'exit\'\n')
-	bashrc.write('alias loadkeys=\'exit\'\n')
-	bashrc.write('alias loadkeys=\'exit\'\n')
-	bashrc.write('alias loadunimap=\'exit\'\n')
-	bashrc.write('alias localc=\'exit\'\n')
-	bashrc.write('alias locale=\'exit\'\n')
-	bashrc.write('alias localectl=\'exit\'\n')
-	bashrc.write('alias localedef=\'exit\'\n')
-	bashrc.write('alias locate=\'exit\'\n')
-	bashrc.write('alias lockfile-check=\'exit\'\n')
-	bashrc.write('alias lockfile-create=\'exit\'\n')
-	bashrc.write('alias lockfile-remove=\'exit\'\n')
-	bashrc.write('alias lockfile-touch=\'exit\'\n')
-	bashrc.write('alias lodraw=\'exit\'\n')
-	bashrc.write('alias loffice=\'exit\'\n')
-	bashrc.write('alias lofromtemplate=\'exit\'\n')
-	bashrc.write('alias logger=\'exit\'\n')
-	bashrc.write('alias login=\'exit\'\n')
-	bashrc.write('alias loginctl=\'exit\'\n')
-	bashrc.write('alias logname=\'exit\'\n')
-	bashrc.write('alias loimpress=\'exit\'\n')
-	bashrc.write('alias lomath=\'exit\'\n')
-	bashrc.write('alias look=\'exit\'\n')
-	bashrc.write('alias lorder=\'exit\'\n')
-	bashrc.write('alias loweb=\'exit\'\n')
-	bashrc.write('alias lowntfs-3g=\'exit\'\n')
-	bashrc.write('alias lowriter=\'exit\'\n')
-	bashrc.write('alias lp=\'exit\'\n')
-	bashrc.write('alias lpoptions=\'exit\'\n')
-	bashrc.write('alias lppasswd=\'exit\'\n')
-	bashrc.write('alias lpq=\'exit\'\n')
-	bashrc.write('alias lpr=\'exit\'\n')
-	bashrc.write('alias lprm=\'exit\'\n')
-	bashrc.write('alias lp_solve=\'exit\'\n')
-	bashrc.write('alias lpstat=\'exit\'\n')
-	bashrc.write('alias lrelease=\'exit\'\n')
-	bashrc.write('alias ls=\'exit\'\n')
-	bashrc.write('alias lsattr=\'exit\'\n')
-	bashrc.write('alias lsblk=\'exit\'\n')
-	bashrc.write('alias lsb_release=\'exit\'\n')
-	bashrc.write('alias lscpu=\'exit\'\n')
-	bashrc.write('alias lsdiff=\'exit\'\n')
-	bashrc.write('alias lshw=\'exit\'\n')
-	bashrc.write('alias lsinitramfs=\'exit\'\n')
-	bashrc.write('alias lsmod=\'exit\'\n')
-	bashrc.write('alias lsof=\'exit\'\n')
-	bashrc.write('alias lspci=\'exit\'\n')
-	bashrc.write('alias lspgpot=\'exit\'\n')
-	bashrc.write('alias lss16toppm=\'exit\'\n')
-	bashrc.write('alias lsusb=\'exit\'\n')
-	bashrc.write('alias ltrace=\'exit\'\n')
-	bashrc.write('alias luit=\'exit\'\n')
-	bashrc.write('alias lupdate=\'exit\'\n')
-	bashrc.write('alias lxterm=\'exit\'\n')
-	bashrc.write('alias lz=\'exit\'\n')
-	bashrc.write('alias lzcat=\'exit\'\n')
-	bashrc.write('alias lzcmp=\'exit\'\n')
-	bashrc.write('alias lzdiff=\'exit\'\n')
-	bashrc.write('alias lzegrep=\'exit\'\n')
-	bashrc.write('alias lzfgrep=\'exit\'\n')
-	bashrc.write('alias lzgrep=\'exit\'\n')
-	bashrc.write('alias lzless=\'exit\'\n')
-	bashrc.write('alias lzma=\'exit\'\n')
-	bashrc.write('alias lzmainfo=\'exit\'\n')
-	bashrc.write('alias lzmore=\'exit\'\n')
-	bashrc.write('alias mail-lock=\'exit\'\n')
-	bashrc.write('alias mail-touchlock=\'exit\'\n')
-	bashrc.write('alias mail-unlock=\'exit\'\n')
-	bashrc.write('alias make=\'exit\'\n')
-	bashrc.write('alias man=\'exit\'\n')
-	bashrc.write('alias mandb=\'exit\'\n')
-	bashrc.write('alias manhole=\'exit\'\n')
-	bashrc.write('alias manpath=\'exit\'\n')
-	bashrc.write('alias mapscrn=\'exit\'\n')
-	bashrc.write('alias mattrib=\'exit\'\n')
-	bashrc.write('alias mawk=\'exit\'\n')
-	bashrc.write('alias mbadblocks=\'exit\'\n')
-	bashrc.write('alias mcat=\'exit\'\n')
-	bashrc.write('alias mcd=\'exit\'\n')
-	bashrc.write('alias mcheck=\'exit\'\n')
-	bashrc.write('alias mclasserase=\'exit\'\n')
-	bashrc.write('alias mcomp=\'exit\'\n')
-	bashrc.write('alias mcookie=\'exit\'\n')
-	bashrc.write('alias mcopy=\'exit\'\n')
-	bashrc.write('alias mc-tool=\'exit\'\n')
-	bashrc.write('alias mc-wait-for-name=\'exit\'\n')
-	bashrc.write('alias md5pass=\'exit\'\n')
-	bashrc.write('alias md5sum=\'exit\'\n')
-	bashrc.write('alias md5sum.textutils=\'exit\'\n')
-	bashrc.write('alias mdel=\'exit\'\n')
-	bashrc.write('alias mdeltree=\'exit\'\n')
-	bashrc.write('alias mdir=\'exit\'\n')
-	bashrc.write('alias mdu=\'exit\'\n')
-	bashrc.write('alias memdiskfind=\'exit\'\n')
-	bashrc.write('alias mesg=\'exit\'\n')
-	bashrc.write('alias mformat=\'exit\'\n')
-	bashrc.write('alias mimeopen=\'exit\'\n')
-	bashrc.write('alias mimetype=\'exit\'\n')
-	bashrc.write('alias min12xxw=\'exit\'\n')
-	bashrc.write('alias minfo=\'exit\'\n')
-	bashrc.write('alias miniterm.py=\'exit\'\n')
-	bashrc.write('alias mkdir=\'exit\'\n')
-	bashrc.write('alias mkdiskimage=\'exit\'\n')
-	bashrc.write('alias mkfifo=\'exit\'\n')
-	bashrc.write('alias mkfontdir=\'exit\'\n')
-	bashrc.write('alias mkfontscale=\'exit\'\n')
-	bashrc.write('alias mkisofs=\'exit\'\n')
-	bashrc.write('alias mkmanifest=\'exit\'\n')
-	bashrc.write('alias mk_modmap=\'exit\'\n')
-	bashrc.write('alias mknod=\'exit\'\n')
-	bashrc.write('alias mktemp=\'exit\'\n')
-	bashrc.write('alias mkzftree=\'exit\'\n')
-	bashrc.write('alias mlabel=\'exit\'\n')
-	bashrc.write('alias mlocate=\'exit\'\n')
-	bashrc.write('alias mmcli=\'exit\'\n')
-	bashrc.write('alias mmd=\'exit\'\n')
-	bashrc.write('alias mmount=\'exit\'\n')
-	bashrc.write('alias mmove=\'exit\'\n')
-	bashrc.write('alias moc=\'exit\'\n')
-	bashrc.write('alias more=\'exit\'\n')
-	bashrc.write('alias mount=\'exit\'\n')
-	bashrc.write('alias mountpoint=\'exit\'\n')
-	bashrc.write('alias mousetweaks=\'exit\'\n')
-	bashrc.write('alias mpartition=\'exit\'\n')
-	bashrc.write('alias mrd=\'exit\'\n')
-	bashrc.write('alias mren=\'exit\'\n')
-	bashrc.write('alias mscompress=\'exit\'\n')
-	bashrc.write('alias msexpand=\'exit\'\n')
-	bashrc.write('alias msgattrib=\'exit\'\n')
-	bashrc.write('alias msgcat=\'exit\'\n')
-	bashrc.write('alias msgcmp=\'exit\'\n')
-	bashrc.write('alias msgcomm=\'exit\'\n')
-	bashrc.write('alias msgconv=\'exit\'\n')
-	bashrc.write('alias msgen=\'exit\'\n')
-	bashrc.write('alias msgexec=\'exit\'\n')
-	bashrc.write('alias msgfilter=\'exit\'\n')
-	bashrc.write('alias msgfmt=\'exit\'\n')
-	bashrc.write('alias msggrep=\'exit\'\n')
-	bashrc.write('alias msginit=\'exit\'\n')
-	bashrc.write('alias msgmerge=\'exit\'\n')
-	bashrc.write('alias msgunfmt=\'exit\'\n')
-	bashrc.write('alias msguniq=\'exit\'\n')
-	bashrc.write('alias mshortname=\'exit\'\n')
-	bashrc.write('alias mshowfat=\'exit\'\n')
-	bashrc.write('alias mt=\'exit\'\n')
-	bashrc.write('alias mt-gnu=\'exit\'\n')
-	bashrc.write('alias mtools=\'exit\'\n')
-	bashrc.write('alias mtoolstest=\'exit\'\n')
-	bashrc.write('alias mtr=\'exit\'\n')
-	bashrc.write('alias mtrace=\'exit\'\n')
-	bashrc.write('alias mtype=\'exit\'\n')
-	bashrc.write('alias mv=\'exit\'\n')
-	bashrc.write('alias mxtar=\'exit\'\n')
-	bashrc.write('alias mzip=\'exit\'\n')
-	bashrc.write('alias namei=\'exit\'\n')
-	bashrc.write('alias nano=\'exit\'\n')
-	bashrc.write('alias nano=\'exit\'\n')
-	bashrc.write('alias nautilus=\'exit\'\n')
-	bashrc.write('alias nautilus-autorun-software=\'exit\'\n')
-	bashrc.write('alias nautilus-connect-server=\'exit\'\n')
-	bashrc.write('alias nautilus-sendto=\'exit\'\n')
-	bashrc.write('alias nawk=\'exit\'\n')
-	bashrc.write('alias nc=\'exit\'\n')
-	bashrc.write('alias ncal=\'exit\'\n')
-	bashrc.write('alias nc.openbsd=\'exit\'\n')
-	bashrc.write('alias ncurses5-config=\'exit\'\n')
-	bashrc.write('alias ncursesw5-config=\'exit\'\n')
-	bashrc.write('alias neqn=\'exit\'\n')
-	bashrc.write('alias net=\'exit\'\n')
-	bashrc.write('alias netcat=\'exit\'\n')
-	bashrc.write('alias netkit-ftp=\'exit\'\n')
-	bashrc.write('alias netstat=\'exit\'\n')
-	bashrc.write('alias newgrp=\'exit\'\n')
-	bashrc.write('alias ngettext=\'exit\'\n')
-	bashrc.write('alias nice=\'exit\'\n')
-	bashrc.write('alias nisdomainname=\'exit\'\n')
-	bashrc.write('alias nl=\'exit\'\n')
-	bashrc.write('alias nm=\'exit\'\n')
-	bashrc.write('alias nm-applet=\'exit\'\n')
-	bashrc.write('alias nmblookup=\'exit\'\n')
-	bashrc.write('alias nmcli=\'exit\'\n')
-	bashrc.write('alias nm-connection-editor=\'exit\'\n')
-	bashrc.write('alias nm-online=\'exit\'\n')
-	bashrc.write('alias nm-tool=\'exit\'\n')
-	bashrc.write('alias nohup=\'exit\'\n')
-	bashrc.write('alias notify-send=\'exit\'\n')
-	bashrc.write('alias nproc=\'exit\'\n')
-	bashrc.write('alias nroff=\'exit\'\n')
-	bashrc.write('alias nslookup=\'exit\'\n')
-	bashrc.write('alias nstat=\'exit\'\n')
-	bashrc.write('alias nsupdate=\'exit\'\n')
-	bashrc.write('alias ntfs-3g=\'exit\'\n')
-	bashrc.write('alias ntfs-3g.probe=\'exit\'\n')
-	bashrc.write('alias ntfs-3g.secaudit=\'exit\'\n')
-	bashrc.write('alias ntfs-3g.usermap=\'exit\'\n')
-	bashrc.write('alias ntfscat=\'exit\'\n')
-	bashrc.write('alias ntfsck=\'exit\'\n')
-	bashrc.write('alias ntfscluster=\'exit\'\n')
-	bashrc.write('alias ntfscmp=\'exit\'\n')
-	bashrc.write('alias ntfsdecrypt=\'exit\'\n')
-	bashrc.write('alias ntfsdump_logfile=\'exit\'\n')
-	bashrc.write('alias ntfsfix=\'exit\'\n')
-	bashrc.write('alias ntfsinfo=\'exit\'\n')
-	bashrc.write('alias ntfsls=\'exit\'\n')
-	bashrc.write('alias ntfsmftalloc=\'exit\'\n')
-	bashrc.write('alias ntfsmove=\'exit\'\n')
-	bashrc.write('alias ntfstruncate=\'exit\'\n')
-	bashrc.write('alias ntfswipe=\'exit\'\n')
-	bashrc.write('alias numfmt=\'exit\'\n')
-	bashrc.write('alias nvidia-detector=\'exit\'\n')
-	bashrc.write('alias oakdecode=\'exit\'\n')
-	bashrc.write('alias obex-data-server=\'exit\'\n')
-	bashrc.write('alias objcopy=\'exit\'\n')
-	bashrc.write('alias objdump=\'exit\'\n')
-	bashrc.write('alias oclock=\'exit\'\n')
-	bashrc.write('alias od=\'exit\'\n')
-	bashrc.write('alias ods-server=\'exit\'\n')
-	bashrc.write('alias oldfind=\'exit\'\n')
-	bashrc.write('alias omshell=\'exit\'\n')
-	bashrc.write('alias on_ac_power=\'exit\'\n')
-	bashrc.write('alias onboard=\'exit\'\n')
-	bashrc.write('alias onboard-settings=\'exit\'\n')
-	bashrc.write('alias oneconf-query=\'exit\'\n')
-	bashrc.write('alias online-accounts-preferences=\'exit\'\n')
-	bashrc.write('alias open=\'exit\'\n')
-	bashrc.write('alias openssl=\'exit\'\n')
-	bashrc.write('alias openvt=\'exit\'\n')
-	bashrc.write('alias opldecode=\'exit\'\n')
-	bashrc.write('alias orca=\'exit\'\n')
-	bashrc.write('alias os-prober=\'exit\'\n')
-	bashrc.write('alias p11-kit=\'exit\'\n')
-	bashrc.write('alias pacat=\'exit\'\n')
-	bashrc.write('alias pacmd=\'exit\'\n')
-	bashrc.write('alias pactl=\'exit\'\n')
-	bashrc.write('alias padsp=\'exit\'\n')
-	bashrc.write('alias pager=\'exit\'\n')
-	bashrc.write('alias pamon=\'exit\'\n')
-	bashrc.write('alias paperconf=\'exit\'\n')
-	bashrc.write('alias paplay=\'exit\'\n')
-	bashrc.write('alias parec=\'exit\'\n')
-	bashrc.write('alias parecord=\'exit\'\n')
-	bashrc.write('alias parsechangelog=\'exit\'\n')
-	bashrc.write('alias partx=\'exit\'\n')
-	bashrc.write('alias passwd=\'exit\'\n')
-	bashrc.write('alias paste=\'exit\'\n')
-	bashrc.write('alias pasuspender=\'exit\'\n')
-	bashrc.write('alias patch=\'exit\'\n')
-	bashrc.write('alias pathchk=\'exit\'\n')
-	bashrc.write('alias pax11publish=\'exit\'\n')
-	bashrc.write('alias pcimodules=\'exit\'\n')
-	bashrc.write('alias pdb=\'exit\'\n')
-	bashrc.write('alias pdb2.7=\'exit\'\n')
-	bashrc.write('alias pdb3=\'exit\'\n')
-	bashrc.write('alias pdb3.4=\'exit\'\n')
-	bashrc.write('alias pdf2dsc=\'exit\'\n')
-	bashrc.write('alias pdf2ps=\'exit\'\n')
-	bashrc.write('alias pdfdetach=\'exit\'\n')
-	bashrc.write('alias pdffonts=\'exit\'\n')
-	bashrc.write('alias pdfimages=\'exit\'\n')
-	bashrc.write('alias pdfinfo=\'exit\'\n')
-	bashrc.write('alias pdfseparate=\'exit\'\n')
-	bashrc.write('alias pdftocairo=\'exit\'\n')
-	bashrc.write('alias pdftohtml=\'exit\'\n')
-	bashrc.write('alias pdftoppm=\'exit\'\n')
-	bashrc.write('alias pdftops=\'exit\'\n')
-	bashrc.write('alias pdftotext=\'exit\'\n')
-	bashrc.write('alias pdfunite=\'exit\'\n')
-	bashrc.write('alias peekfd=\'exit\'\n')
-	bashrc.write('alias perl=\'exit\'\n')
-	bashrc.write('alias perl5.18.2=\'exit\'\n')
-	bashrc.write('alias perlbug=\'exit\'\n')
-	bashrc.write('alias perldoc=\'exit\'\n')
-	bashrc.write('alias perlivp=\'exit\'\n')
-	bashrc.write('alias perlthanks=\'exit\'\n')
-	bashrc.write('alias pf2afm=\'exit\'\n')
-	bashrc.write('alias pfbtopfa=\'exit\'\n')
-	bashrc.write('alias pftp=\'exit\'\n')
-	bashrc.write('alias pg=\'exit\'\n')
-	bashrc.write('alias pgrep=\'exit\'\n')
-	bashrc.write('alias pic=\'exit\'\n')
-	bashrc.write('alias pico=\'exit\'\n')
-	bashrc.write('alias piconv=\'exit\'\n')
-	bashrc.write('alias pidof=\'exit\'\n')
-	bashrc.write('alias pilconvert.py=\'exit\'\n')
-	bashrc.write('alias pildriver.py=\'exit\'\n')
-	bashrc.write('alias pilfile.py=\'exit\'\n')
-	bashrc.write('alias pilfont.py=\'exit\'\n')
-	bashrc.write('alias pilprint.py=\'exit\'\n')
-	bashrc.write('alias ping=\'exit\'\n')
-	bashrc.write('alias ping6=\'exit\'\n')
-	bashrc.write('alias pinky=\'exit\'\n')
-	bashrc.write('alias pixeltool=\'exit\'\n')
-	bashrc.write('alias pkaction=\'exit\'\n')
-	bashrc.write('alias pkcheck=\'exit\'\n')
-	bashrc.write('alias pkexec=\'exit\'\n')
-	bashrc.write('alias pkg-config=\'exit\'\n')
-	bashrc.write('alias pkill=\'exit\'\n')
-	bashrc.write('alias pkttyagent=\'exit\'\n')
-	bashrc.write('alias pl2pm=\'exit\'\n')
-	bashrc.write('alias plainbox-trusted-launcher-1=\'exit\'\n')
-	bashrc.write('alias pldd=\'exit\'\n')
-	bashrc.write('alias plog=\'exit\'\n')
-	bashrc.write('alias plymouth=\'exit\'\n')
-	bashrc.write('alias plymouth-upstart-bridge=\'exit\'\n')
-	bashrc.write('alias pmap=\'exit\'\n')
-	bashrc.write('alias pm-is-supported=\'exit\'\n')
-	bashrc.write('alias pnm2ppa=\'exit\'\n')
-	bashrc.write('alias pod2html=\'exit\'\n')
-	bashrc.write('alias pod2latex=\'exit\'\n')
-	bashrc.write('alias pod2latex.bundled=\'exit\'\n')
-	bashrc.write('alias pod2man=\'exit\'\n')
-	bashrc.write('alias pod2text=\'exit\'\n')
-	bashrc.write('alias pod2usage=\'exit\'\n')
-	bashrc.write('alias podchecker=\'exit\'\n')
-	bashrc.write('alias podselect=\'exit\'\n')
-	bashrc.write('alias poff=\'exit\'\n')
-	bashrc.write('alias pon=\'exit\'\n')
-	bashrc.write('alias ppdc=\'exit\'\n')
-	bashrc.write('alias ppdhtml=\'exit\'\n')
-	bashrc.write('alias ppdi=\'exit\'\n')
-	bashrc.write('alias ppdmerge=\'exit\'\n')
-	bashrc.write('alias ppdpo=\'exit\'\n')
-	bashrc.write('alias pphs=\'exit\'\n')
-	bashrc.write('alias ppmtolss16=\'exit\'\n')
-	bashrc.write('alias pr=\'exit\'\n')
-	bashrc.write('alias precat=\'exit\'\n')
-	bashrc.write('alias preconv=\'exit\'\n')
-	bashrc.write('alias prename=\'exit\'\n')
-	bashrc.write('alias preunzip=\'exit\'\n')
-	bashrc.write('alias prezip=\'exit\'\n')
-	bashrc.write('alias prezip-bin=\'exit\'\n')
-	bashrc.write('alias print=\'exit\'\n')
-	bashrc.write('alias printafm=\'exit\'\n')
-	bashrc.write('alias printenv=\'exit\'\n')
-	bashrc.write('alias printerbanner=\'exit\'\n')
-	bashrc.write('alias printer-profile=\'exit\'\n')
-	bashrc.write('alias printf=\'exit\'\n')
-	bashrc.write('alias prove=\'exit\'\n')
-	bashrc.write('alias prtstat=\'exit\'\n')
-	bashrc.write('alias ps=\'exit\'\n')
-	bashrc.write('alias ps2ascii=\'exit\'\n')
-	bashrc.write('alias ps2epsi=\'exit\'\n')
-	bashrc.write('alias ps2pdf=\'exit\'\n')
-	bashrc.write('alias ps2pdf12=\'exit\'\n')
-	bashrc.write('alias ps2pdf13=\'exit\'\n')
-	bashrc.write('alias ps2pdf14=\'exit\'\n')
-	bashrc.write('alias ps2pdfwr=\'exit\'\n')
-	bashrc.write('alias ps2ps=\'exit\'\n')
-	bashrc.write('alias ps2ps2=\'exit\'\n')
-	bashrc.write('alias ps2txt=\'exit\'\n')
-	bashrc.write('alias psed=\'exit\'\n')
-	bashrc.write('alias psfaddtable=\'exit\'\n')
-	bashrc.write('alias psfgettable=\'exit\'\n')
-	bashrc.write('alias psfstriptable=\'exit\'\n')
-	bashrc.write('alias psfxtable=\'exit\'\n')
-	bashrc.write('alias pstree=\'exit\'\n')
-	bashrc.write('alias pstree.x11=\'exit\'\n')
-	bashrc.write('alias pstruct=\'exit\'\n')
-	bashrc.write('alias ptar=\'exit\'\n')
-	bashrc.write('alias ptardiff=\'exit\'\n')
-	bashrc.write('alias ptargrep=\'exit\'\n')
-	bashrc.write('alias ptx=\'exit\'\n')
-	bashrc.write('alias pulseaudio=\'exit\'\n')
-	bashrc.write('alias purple-remote=\'exit\'\n')
-	bashrc.write('alias purple-send=\'exit\'\n')
-	bashrc.write('alias purple-send-async=\'exit\'\n')
-	bashrc.write('alias purple-url-handler=\'exit\'\n')
-	bashrc.write('alias pwd=\'exit\'\n')
-	bashrc.write('alias pwdx=\'exit\'\n')
-	bashrc.write('alias pxelinux-options=\'exit\'\n')
-	bashrc.write('alias py3clean=\'exit\'\n')
-	bashrc.write('alias py3compile=\'exit\'\n')
-	bashrc.write('alias py3versions=\'exit\'\n')
-	bashrc.write('alias pybuild=\'exit\'\n')
-	bashrc.write('alias pyclean=\'exit\'\n')
-	bashrc.write('alias pycompile=\'exit\'\n')
-	bashrc.write('alias pydoc=\'exit\'\n')
-	bashrc.write('alias pydoc2.7=\'exit\'\n')
-	bashrc.write('alias pydoc3=\'exit\'\n')
-	bashrc.write('alias pydoc3.4=\'exit\'\n')
-	bashrc.write('alias pygettext=\'exit\'\n')
-	bashrc.write('alias pygettext2.7=\'exit\'\n')
-	bashrc.write('alias pygettext3=\'exit\'\n')
-	bashrc.write('alias pygettext3.4=\'exit\'\n')
-	bashrc.write('alias pyhtmlizer=\'exit\'\n')
-	bashrc.write('alias python=\'exit\'\n')
-	bashrc.write('alias python2=\'exit\'\n')
-	bashrc.write('alias python2.7=\'exit\'\n')
-	bashrc.write('alias python3=\'exit\'\n')
-	bashrc.write('alias python3.4=\'exit\'\n')
-	bashrc.write('alias python3.4m=\'exit\'\n')
-	bashrc.write('alias python3m=\'exit\'\n')
-	bashrc.write('alias pyversions=\'exit\'\n')
-	bashrc.write('alias qcollectiongenerator=\'exit\'\n')
-	bashrc.write('alias qdbus=\'exit\'\n')
-	bashrc.write('alias qdbuscpp2xml=\'exit\'\n')
-	bashrc.write('alias qdbusviewer=\'exit\'\n')
-	bashrc.write('alias qdbusxml2cpp=\'exit\'\n')
-	bashrc.write('alias qdoc=\'exit\'\n')
-	bashrc.write('alias qdoc3=\'exit\'\n')
-	bashrc.write('alias qglinfo=\'exit\'\n')
-	bashrc.write('alias qhelpconverter=\'exit\'\n')
-	bashrc.write('alias qhelpgenerator=\'exit\'\n')
-	bashrc.write('alias qmake=\'exit\'\n')
-	bashrc.write('alias qml=\'exit\'\n')
-	bashrc.write('alias qml1plugindump=\'exit\'\n')
-	bashrc.write('alias qmlbundle=\'exit\'\n')
-	bashrc.write('alias qmlimportscanner=\'exit\'\n')
-	bashrc.write('alias qmlmin=\'exit\'\n')
-	bashrc.write('alias qmlplugindump=\'exit\'\n')
-	bashrc.write('alias qmlprofiler=\'exit\'\n')
-	bashrc.write('alias qmlscene=\'exit\'\n')
-	bashrc.write('alias qmltestrunner=\'exit\'\n')
-	bashrc.write('alias qmlviewer=\'exit\'\n')
-	bashrc.write('alias qpdf=\'exit\'\n')
-	bashrc.write('alias qpdldecode=\'exit\'\n')
-	bashrc.write('alias qtchooser=\'exit\'\n')
-	bashrc.write('alias qtconfig=\'exit\'\n')
-	bashrc.write('alias qtpaths=\'exit\'\n')
-	bashrc.write('alias quirks-handler=\'exit\'\n')
-	bashrc.write('alias ranlib=\'exit\'\n')
-	bashrc.write('alias rbash=\'exit\'\n')
-	bashrc.write('alias rcc=\'exit\'\n')
-	bashrc.write('alias rcp=\'exit\'\n')
-	bashrc.write('alias rctest=\'exit\'\n')
-	bashrc.write('alias rdiffdir=\'exit\'\n')
-	bashrc.write('alias readelf=\'exit\'\n')
-	bashrc.write('alias readlink=\'exit\'\n')
-	bashrc.write('alias readom=\'exit\'\n')
-	bashrc.write('alias recode-sr-latin=\'exit\'\n')
-	bashrc.write('alias recountdiff=\'exit\'\n')
-	bashrc.write('alias red=\'exit\'\n')
-	bashrc.write('alias rediff=\'exit\'\n')
-	bashrc.write('alias remmina=\'exit\'\n')
-	bashrc.write('alias rename=\'exit\'\n')
-	bashrc.write('alias rename.ul=\'exit\'\n')
-	bashrc.write('alias rendercheck=\'exit\'\n')
-	bashrc.write('alias renice=\'exit\'\n')
-	bashrc.write('alias reset=\'exit\'\n')
-	bashrc.write('alias resize=\'exit\'\n')
-	bashrc.write('alias resizecons=\'exit\'\n')
-	bashrc.write('alias resizepart=\'exit\'\n')
-	bashrc.write('alias rev=\'exit\'\n')
-	bashrc.write('alias rfcomm=\'exit\'\n')
-	bashrc.write('alias rgrep=\'exit\'\n')
-	bashrc.write('alias rhythmbox=\'exit\'\n')
-	bashrc.write('alias rhythmbox-client=\'exit\'\n')
-	bashrc.write('alias rlogin=\'exit\'\n')
-	bashrc.write('alias rm=\'exit\'\n')
-	bashrc.write('alias rmdir=\'exit\'\n')
-	bashrc.write('alias rnano=\'exit\'\n')
-	bashrc.write('alias routef=\'exit\'\n')
-	bashrc.write('alias routel=\'exit\'\n')
-	bashrc.write('alias rpcclient=\'exit\'\n')
-	bashrc.write('alias rpcgen=\'exit\'\n')
-	bashrc.write('alias rpl8=\'exit\'\n')
-	bashrc.write('alias rsh=\'exit\'\n')
-	bashrc.write('alias rstart=\'exit\'\n')
-	bashrc.write('alias rstartd=\'exit\'\n')
-	bashrc.write('alias rsync=\'exit\'\n')
-	bashrc.write('alias rtstat=\'exit\'\n')
-	bashrc.write('alias runcon=\'exit\'\n')
-	bashrc.write('alias run-mailcap=\'exit\'\n')
-	bashrc.write('alias running-in-container=\'exit\'\n')
-	bashrc.write('alias run-parts=\'exit\'\n')
-	bashrc.write('alias run-with-aspell=\'exit\'\n')
-	bashrc.write('alias rview=\'exit\'\n')
-	bashrc.write('alias rvim=\'exit\'\n')
-	bashrc.write('alias s2p=\'exit\'\n')
-	bashrc.write('alias samba-regedit=\'exit\'\n')
-	bashrc.write('alias samba-tool=\'exit\'\n')
-	bashrc.write('alias sane-find-scanner=\'exit\'\n')
-	bashrc.write('alias savelog=\'exit\'\n')
-	bashrc.write('alias scanimage=\'exit\'\n')
-	bashrc.write('alias scp=\'exit\'\n')
-	bashrc.write('alias scp-dbus-service=\'exit\'\n')
-	bashrc.write('alias screendump=\'exit\'\n')
-	bashrc.write('alias script=\'exit\'\n')
-	bashrc.write('alias scriptreplay=\'exit\'\n')
-	bashrc.write('alias sdiff=\'exit\'\n')
-	bashrc.write('alias sdptool=\'exit\'\n')
-	bashrc.write('alias seahorse=\'exit\'\n')
-	bashrc.write('alias sed=\'exit\'\n')
-	bashrc.write('alias see=\'exit\'\n')
-	bashrc.write('alias select-default-iwrap=\'exit\'\n')
-	bashrc.write('alias select-editor=\'exit\'\n')
-	bashrc.write('alias sensible-browser=\'exit\'\n')
-	bashrc.write('alias sensible-editor=\'exit\'\n')
-	bashrc.write('alias sensible-pager=\'exit\'\n')
-	bashrc.write('alias seq=\'exit\'\n')
-	bashrc.write('alias service=\'exit\'\n')
-	bashrc.write('alias session-installer=\'exit\'\n')
-	bashrc.write('alias session-migration=\'exit\'\n')
-	bashrc.write('alias sessreg=\'exit\'\n')
-	bashrc.write('alias setarch=\'exit\'\n')
-	bashrc.write('alias setfacl=\'exit\'\n')
-	bashrc.write('alias setfacl=\'exit\'\n')
-	bashrc.write('alias setfont=\'exit\'\n')
-	bashrc.write('alias setkeycodes=\'exit\'\n')
-	bashrc.write('alias setleds=\'exit\'\n')
-	bashrc.write('alias setlogcons=\'exit\'\n')
-	bashrc.write('alias setmetamode=\'exit\'\n')
-	bashrc.write('alias setpci=\'exit\'\n')
-	bashrc.write('alias setsid=\'exit\'\n')
-	bashrc.write('alias setterm=\'exit\'\n')
-	bashrc.write('alias setupcon=\'exit\'\n')
-	bashrc.write('alias setxkbmap=\'exit\'\n')
-	bashrc.write('alias sftp=\'exit\'\n')
-	bashrc.write('alias sg=\'exit\'\n')
-	bashrc.write('alias sh=\'exit\'\n')
-	bashrc.write('alias sha1pass=\'exit\'\n')
-	bashrc.write('alias sha1sum=\'exit\'\n')
-	bashrc.write('alias sha224sum=\'exit\'\n')
-	bashrc.write('alias sha256sum=\'exit\'\n')
-	bashrc.write('alias sha384sum=\'exit\'\n')
-	bashrc.write('alias sha512sum=\'exit\'\n')
-	bashrc.write('alias shasum=\'exit\'\n')
-	bashrc.write('alias sh.distrib=\'exit\'\n')
-	bashrc.write('alias shotwell=\'exit\'\n')
-	bashrc.write('alias showconsolefont=\'exit\'\n')
-	bashrc.write('alias showfont=\'exit\'\n')
-	bashrc.write('alias showkey=\'exit\'\n')
-	bashrc.write('alias showrgb=\'exit\'\n')
-	bashrc.write('alias shred=\'exit\'\n')
-	bashrc.write('alias shuf=\'exit\'\n')
-	bashrc.write('alias signond=\'exit\'\n')
-	bashrc.write('alias signonpluginprocess=\'exit\'\n')
-	bashrc.write('alias signon-ui=\'exit\'\n')
-	bashrc.write('alias simple-scan=\'exit\'\n')
-	bashrc.write('alias size=\'exit\'\n')
-	bashrc.write('alias skill=\'exit\'\n')
-	bashrc.write('alias skype=\'exit\'\n')
-	bashrc.write('alias slabtop=\'exit\'\n')
-	bashrc.write('alias sleep=\'exit\'\n')
-	bashrc.write('alias slogin=\'exit\'\n')
-	bashrc.write('alias slxdecode=\'exit\'\n')
-	bashrc.write('alias smbcacls=\'exit\'\n')
-	bashrc.write('alias smbclient=\'exit\'\n')
-	bashrc.write('alias smbcquotas=\'exit\'\n')
-	bashrc.write('alias smbget=\'exit\'\n')
-	bashrc.write('alias smbpasswd=\'exit\'\n')
-	bashrc.write('alias smbspool=\'exit\'\n')
-	bashrc.write('alias smbtar=\'exit\'\n')
-	bashrc.write('alias smbtree=\'exit\'\n')
-	bashrc.write('alias smproxy=\'exit\'\n')
-	bashrc.write('alias snice=\'exit\'\n')
-	bashrc.write('alias soelim=\'exit\'\n')
-	bashrc.write('alias soffice=\'exit\'\n')
-	bashrc.write('alias software-center=\'exit\'\n')
-	bashrc.write('alias software-center-gtk3=\'exit\'\n')
-	bashrc.write('alias software-properties-gtk=\'exit\'\n')
-	bashrc.write('alias sort=\'exit\'\n')
-	bashrc.write('alias sotruss=\'exit\'\n')
-	bashrc.write('alias spd-conf=\'exit\'\n')
-	bashrc.write('alias spd-say=\'exit\'\n')
-	bashrc.write('alias speaker-test=\'exit\'\n')
-	bashrc.write('alias speech-dispatcher=\'exit\'\n')
-	bashrc.write('alias splain=\'exit\'\n')
-	bashrc.write('alias split=\'exit\'\n')
-	bashrc.write('alias splitdiff=\'exit\'\n')
-	bashrc.write('alias splitfont=\'exit\'\n')
-	bashrc.write('alias sprof=\'exit\'\n')
-	bashrc.write('alias ss=\'exit\'\n')
-	bashrc.write('alias ssh=\'exit\'\n')
-	bashrc.write('alias ssh-add=\'exit\'\n')
-	bashrc.write('alias ssh-agent=\'exit\'\n')
-	bashrc.write('alias ssh-argv0=\'exit\'\n')
-	bashrc.write('alias ssh-askpass=\'exit\'\n')
-	bashrc.write('alias ssh-copy-id=\'exit\'\n')
-	bashrc.write('alias ssh-keygen=\'exit\'\n')
-	bashrc.write('alias ssh-keyscan=\'exit\'\n')
-	bashrc.write('alias start-pulseaudio-kde=\'exit\'\n')
-	bashrc.write('alias start-pulseaudio-x11=\'exit\'\n')
-	bashrc.write('alias startx=\'exit\'\n')
-	bashrc.write('alias stat=\'exit\'\n')
-	bashrc.write('alias static-sh=\'exit\'\n')
-	bashrc.write('alias stdbuf=\'exit\'\n')
-	bashrc.write('alias strace=\'exit\'\n')
-	bashrc.write('alias strings=\'exit\'\n')
-	bashrc.write('alias strip=\'exit\'\n')
-	bashrc.write('alias stty=\'exit\'\n')
-	bashrc.write('alias su=\'exit\'\n')
-	bashrc.write('alias sudo=\'exit\'\n')
-	bashrc.write('alias sudoedit=\'exit\'\n')
-	bashrc.write('alias sudoreplay=\'exit\'\n')
-	bashrc.write('alias sum=\'exit\'\n')
-	bashrc.write('alias sync=\'exit\'\n')
-	bashrc.write('alias synclient=\'exit\'\n')
-	bashrc.write('alias syndaemon=\'exit\'\n')
-	bashrc.write('alias syslinux=\'exit\'\n')
-	bashrc.write('alias syslinux2ansi=\'exit\'\n')
-	bashrc.write('alias syslinux-legacy=\'exit\'\n')
-	bashrc.write('alias system-config-printer=\'exit\'\n')
-	bashrc.write('alias system-config-printer-applet=\'exit\'\n')
-	bashrc.write('alias t1ascii=\'exit\'\n')
-	bashrc.write('alias t1asm=\'exit\'\n')
-	bashrc.write('alias t1binary=\'exit\'\n')
-	bashrc.write('alias t1disasm=\'exit\'\n')
-	bashrc.write('alias t1mac=\'exit\'\n')
-	bashrc.write('alias t1unmac=\'exit\'\n')
-	bashrc.write('alias tabs=\'exit\'\n')
-	bashrc.write('alias tac=\'exit\'\n')
-	bashrc.write('alias tail=\'exit\'\n')
-	bashrc.write('alias tailf=\'exit\'\n')
-	bashrc.write('alias tap2deb=\'exit\'\n')
-	bashrc.write('alias tap2rpm=\'exit\'\n')
-	bashrc.write('alias tapconvert=\'exit\'\n')
-	bashrc.write('alias tar=\'exit\'\n')
-	bashrc.write('alias taskset=\'exit\'\n')
-	bashrc.write('alias tbl=\'exit\'\n')
-	bashrc.write('alias tclsh=\'exit\'\n')
-	bashrc.write('alias tclsh8.6=\'exit\'\n')
-	bashrc.write('alias tee=\'exit\'\n')
-	bashrc.write('alias telepathy-indicator=\'exit\'\n')
-	bashrc.write('alias telnet=\'exit\'\n')
-	bashrc.write('alias telnet.netkit=\'exit\'\n')
-	bashrc.write('alias tempfile=\'exit\'\n')
-	bashrc.write('alias test=\'exit\'\n')
-	bashrc.write('alias testparm=\'exit\'\n')
-	bashrc.write('alias tgz=\'exit\'\n')
-	bashrc.write('alias thunderbird=\'exit\'\n')
-	bashrc.write('alias tic=\'exit\'\n')
-	bashrc.write('alias time=\'exit\'\n')
-	bashrc.write('alias timedatectl=\'exit\'\n')
-	bashrc.write('alias timeout=\'exit\'\n')
-	bashrc.write('alias tload=\'exit\'\n')
-	bashrc.write('alias toe=\'exit\'\n')
-	bashrc.write('alias top=\'exit\'\n')
-	bashrc.write('alias toshset=\'exit\'\n')
-	bashrc.write('alias totem=\'exit\'\n')
-	bashrc.write('alias totem-audio-preview=\'exit\'\n')
-	bashrc.write('alias totem-video-thumbnailer=\'exit\'\n')
-	bashrc.write('alias touch=\'exit\'\n')
-	bashrc.write('alias touch=\'exit\'\n')
-	bashrc.write('alias tput=\'exit\'\n')
-	bashrc.write('alias tr=\'exit\'\n')
-	bashrc.write('alias tracepath=\'exit\'\n')
-	bashrc.write('alias tracepath6=\'exit\'\n')
-	bashrc.write('alias traceroute6=\'exit\'\n')
-	bashrc.write('alias traceroute6.iputils=\'exit\'\n')
-	bashrc.write('alias transmission-gtk=\'exit\'\n')
-	bashrc.write('alias transset=\'exit\'\n')
-	bashrc.write('alias trial=\'exit\'\n')
-	bashrc.write('alias troff=\'exit\'\n')
-	bashrc.write('alias true=\'exit\'\n')
-	bashrc.write('alias truncate=\'exit\'\n')
-	bashrc.write('alias trust=\'exit\'\n')
-	bashrc.write('alias tset=\'exit\'\n')
-	bashrc.write('alias tsort=\'exit\'\n')
-	bashrc.write('alias tst_inactivity_timer=\'exit\'\n')
-	bashrc.write('alias ttfread=\'exit\'\n')
-	bashrc.write('alias tty=\'exit\'\n')
-	bashrc.write('alias twistd=\'exit\'\n')
-	bashrc.write('alias tzselect=\'exit\'\n')
-	bashrc.write('alias ubuntu-bug=\'exit\'\n')
-	bashrc.write('alias ubuntu-drivers=\'exit\'\n')
-	bashrc.write('alias ubuntu-support-status=\'exit\'\n')
-	bashrc.write('alias ubuntu-webapps-update-index=\'exit\'\n')
-	bashrc.write('alias ucf=\'exit\'\n')
-	bashrc.write('alias ucfq=\'exit\'\n')
-	bashrc.write('alias ucfr=\'exit\'\n')
-	bashrc.write('alias ucs2any=\'exit\'\n')
-	bashrc.write('alias udevadm=\'exit\'\n')
-	bashrc.write('alias udisksctl=\'exit\'\n')
-	bashrc.write('alias uic=\'exit\'\n')
-	bashrc.write('alias uic3=\'exit\'\n')
-	bashrc.write('alias ul=\'exit\'\n')
-	bashrc.write('alias ulockmgr_server=\'exit\'\n')
-	bashrc.write('alias umax_pp=\'exit\'\n')
-	bashrc.write('alias umount=\'exit\'\n')
-	bashrc.write('alias uname=\'exit\'\n')
-	bashrc.write('alias unattended-upgrade=\'exit\'\n')
-	bashrc.write('alias unattended-upgrades=\'exit\'\n')
-	bashrc.write('alias uncompress=\'exit\'\n')
-	bashrc.write('alias unexpand=\'exit\'\n')
-	bashrc.write('alias unicode_start=\'exit\'\n')
-	bashrc.write('alias unicode_stop=\'exit\'\n')
-	bashrc.write('alias uniq=\'exit\'\n')
-	bashrc.write('alias unity=\'exit\'\n')
-	bashrc.write('alias unity-control-center=\'exit\'\n')
-	bashrc.write('alias unity-scope-loader=\'exit\'\n')
-	bashrc.write('alias unity-settings-daemon=\'exit\'\n')
-	bashrc.write('alias unity-webapps-desktop-file=\'exit\'\n')
-	bashrc.write('alias unity-webapps-qml-launcher=\'exit\'\n')
-	bashrc.write('alias unity-webapps-runner=\'exit\'\n')
-	bashrc.write('alias unlink=\'exit\'\n')
-	bashrc.write('alias unlzma=\'exit\'\n')
-	bashrc.write('alias unopkg=\'exit\'\n')
-	bashrc.write('alias unshare=\'exit\'\n')
-	bashrc.write('alias unwrapdiff=\'exit\'\n')
-	bashrc.write('alias unxz=\'exit\'\n')
-	bashrc.write('alias unzip=\'exit\'\n')
-	bashrc.write('alias unzipsfx=\'exit\'\n')
-	bashrc.write('alias update-alternatives=\'exit\'\n')
-	bashrc.write('alias updatedb=\'exit\'\n')
-	bashrc.write('alias updatedb.mlocate=\'exit\'\n')
-	bashrc.write('alias update-desktop-database=\'exit\'\n')
-	bashrc.write('alias update-gconf-defaults=\'exit\'\n')
-	bashrc.write('alias update-manager=\'exit\'\n')
-	bashrc.write('alias update-mime-database=\'exit\'\n')
-	bashrc.write('alias update-mime-database.real=\'exit\'\n')
-	bashrc.write('alias update-notifier=\'exit\'\n')
-	bashrc.write('alias upower=\'exit\'\n')
-	bashrc.write('alias uptime=\'exit\'\n')
-	bashrc.write('alias usb-creator-gtk=\'exit\'\n')
-	bashrc.write('alias usb-devices=\'exit\'\n')
-	bashrc.write('alias usbhid-dump=\'exit\'\n')
-	bashrc.write('alias usb_printerid=\'exit\'\n')
-	bashrc.write('alias users=\'exit\'\n')
-	bashrc.write('alias uuidgen=\'exit\'\n')
-	bashrc.write('alias uxterm=\'exit\'\n')
-	bashrc.write('alias uz=\'exit\'\n')
-	bashrc.write('alias vdir=\'exit\'\n')
-	bashrc.write('alias vi=\'exit\'\n')
-	bashrc.write('alias view=\'exit\'\n')
-	bashrc.write('alias viewres=\'exit\'\n')
-	bashrc.write('alias vim=\'exit\'\n')
-	bashrc.write('alias vim.basic=\'exit\'\n')
-	bashrc.write('alias vimdiff=\'exit\'\n')
-	bashrc.write('alias vim.tiny=\'exit\'\n')
-	bashrc.write('alias vimtutor=\'exit\'\n')
-	bashrc.write('alias vino-passwd=\'exit\'\n')
-	bashrc.write('alias vino-preferences=\'exit\'\n')
-	bashrc.write('alias vmmouse_detect=\'exit\'\n')
-	bashrc.write('alias vmstat=\'exit\'\n')
-	bashrc.write('alias vmwarectrl=\'exit\'\n')
-	bashrc.write('alias volname=\'exit\'\n')
-	bashrc.write('alias vstp=\'exit\'\n')
-	bashrc.write('alias w=\'exit\'\n')
-	bashrc.write('alias wall=\'exit\'\n')
-	bashrc.write('alias watch=\'exit\'\n')
-	bashrc.write('alias wc=\'exit\'\n')
-	bashrc.write('alias webapp-container=\'exit\'\n')
-	bashrc.write('alias webbrowser-app=\'exit\'\n')
-	bashrc.write('alias wftopfa=\'exit\'\n')
-	bashrc.write('alias wget=\'exit\'\n')
-	bashrc.write('alias whatis=\'exit\'\n')
-	bashrc.write('alias whereis=\'exit\'\n')
-	bashrc.write('alias which=\'exit\'\n')
-	bashrc.write('alias which=\'exit\'\n')
-	bashrc.write('alias whiptail=\'exit\'\n')
-	bashrc.write('alias who=\'exit\'\n')
-	bashrc.write('alias whoami=\'exit\'\n')
-	bashrc.write('alias whoopsie=\'exit\'\n')
-	bashrc.write('alias whoopsie-preferences=\'exit\'\n')
-	bashrc.write('alias wish=\'exit\'\n')
-	bashrc.write('alias wish8.6=\'exit\'\n')
-	bashrc.write('alias wodim=\'exit\'\n')
-	bashrc.write('alias word-list-compress=\'exit\'\n')
-	bashrc.write('alias wpa_passphrase=\'exit\'\n')
-	bashrc.write('alias w.procps=\'exit\'\n')
-	bashrc.write('alias write=\'exit\'\n')
-	bashrc.write('alias X=\'exit\'\n')
-	bashrc.write('alias X11=\'exit\'\n')
-	bashrc.write('alias x11perf=\'exit\'\n')
-	bashrc.write('alias x11perfcomp=\'exit\'\n')
-	bashrc.write('alias x86_64=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-addr2line=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-ar=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-as=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-c++filt=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-cpp=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-cpp-4.8=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-dwp=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-elfedit=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-gcc=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-gcc-4.8=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-gcc-ar=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-gcc-ar-4.8=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-gcc-nm=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-gcc-nm-4.8=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-gcc-ranlib=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-gcc-ranlib-4.8=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-gcov=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-gcov-4.8=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-gprof=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-ld=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-ld.bfd=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-ld.gold=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-nm=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-objcopy=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-objdump=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-ranlib=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-readelf=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-size=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-strings=\'exit\'\n')
-	bashrc.write('alias x86_64-linux-gnu-strip=\'exit\'\n')
-	bashrc.write('alias xargs=\'exit\'\n')
-	bashrc.write('alias xauth=\'exit\'\n')
-	bashrc.write('alias xbiff=\'exit\'\n')
-	bashrc.write('alias xcalc=\'exit\'\n')
-	bashrc.write('alias xclipboard=\'exit\'\n')
-	bashrc.write('alias xclock=\'exit\'\n')
-	bashrc.write('alias xcmsdb=\'exit\'\n')
-	bashrc.write('alias xconsole=\'exit\'\n')
-	bashrc.write('alias xcursorgen=\'exit\'\n')
-	bashrc.write('alias xcutsel=\'exit\'\n')
-	bashrc.write('alias xdg-desktop-icon=\'exit\'\n')
-	bashrc.write('alias xdg-desktop-menu=\'exit\'\n')
-	bashrc.write('alias xdg-email=\'exit\'\n')
-	bashrc.write('alias xdg-icon-resource=\'exit\'\n')
-	bashrc.write('alias xdg-mime=\'exit\'\n')
-	bashrc.write('alias xdg-open=\'exit\'\n')
-	bashrc.write('alias xdg-screensaver=\'exit\'\n')
-	bashrc.write('alias xdg-settings=\'exit\'\n')
-	bashrc.write('alias xdg-user-dir=\'exit\'\n')
-	bashrc.write('alias xdg-user-dirs-gtk-update=\'exit\'\n')
-	bashrc.write('alias xdg-user-dirs-update=\'exit\'\n')
-	bashrc.write('alias xdiagnose=\'exit\'\n')
-	bashrc.write('alias xditview=\'exit\'\n')
-	bashrc.write('alias xdpyinfo=\'exit\'\n')
-	bashrc.write('alias xdriinfo=\'exit\'\n')
-	bashrc.write('alias xedid=\'exit\'\n')
-	bashrc.write('alias xedit=\'exit\'\n')
-	bashrc.write('alias xev=\'exit\'\n')
-	bashrc.write('alias xeyes=\'exit\'\n')
-	bashrc.write('alias xfd=\'exit\'\n')
-	bashrc.write('alias xfontsel=\'exit\'\n')
-	bashrc.write('alias xfsinfo=\'exit\'\n')
-	bashrc.write('alias xgamma=\'exit\'\n')
-	bashrc.write('alias xgc=\'exit\'\n')
-	bashrc.write('alias xgettext=\'exit\'\n')
-	bashrc.write('alias xhost=\'exit\'\n')
-	bashrc.write('alias xinit=\'exit\'\n')
-	bashrc.write('alias xinput=\'exit\'\n')
-	bashrc.write('alias xkbbell=\'exit\'\n')
-	bashrc.write('alias xkbcomp=\'exit\'\n')
-	bashrc.write('alias xkbevd=\'exit\'\n')
-	bashrc.write('alias xkbprint=\'exit\'\n')
-	bashrc.write('alias xkbvleds=\'exit\'\n')
-	bashrc.write('alias xkbwatch=\'exit\'\n')
-	bashrc.write('alias xkeystone=\'exit\'\n')
-	bashrc.write('alias xkill=\'exit\'\n')
-	bashrc.write('alias xload=\'exit\'\n')
-	bashrc.write('alias xlogo=\'exit\'\n')
-	bashrc.write('alias xlsatoms=\'exit\'\n')
-	bashrc.write('alias xlsclients=\'exit\'\n')
-	bashrc.write('alias xlsfonts=\'exit\'\n')
-	bashrc.write('alias xmag=\'exit\'\n')
-	bashrc.write('alias xman=\'exit\'\n')
-	bashrc.write('alias xmessage=\'exit\'\n')
-	bashrc.write('alias xmlpatterns=\'exit\'\n')
-	bashrc.write('alias xmlpatternsvalidator=\'exit\'\n')
-	bashrc.write('alias xmodmap=\'exit\'\n')
-	bashrc.write('alias xmore=\'exit\'\n')
-	bashrc.write('alias Xorg=\'exit\'\n')
-	bashrc.write('alias xpci=\'exit\'\n')
-	bashrc.write('alias xprop=\'exit\'\n')
-	bashrc.write('alias xqxdecode=\'exit\'\n')
-	bashrc.write('alias xrandr=\'exit\'\n')
-	bashrc.write('alias xrandr-tool=\'exit\'\n')
-	bashrc.write('alias xrdb=\'exit\'\n')
-	bashrc.write('alias xrefresh=\'exit\'\n')
-	bashrc.write('alias xrotate=\'exit\'\n')
-	bashrc.write('alias x-session-manager=\'exit\'\n')
-	bashrc.write('alias xset=\'exit\'\n')
-	bashrc.write('alias xsetmode=\'exit\'\n')
-	bashrc.write('alias xsetpointer=\'exit\'\n')
-	bashrc.write('alias xsetroot=\'exit\'\n')
-	bashrc.write('alias xsetwacom=\'exit\'\n')
-	bashrc.write('alias xsm=\'exit\'\n')
-	bashrc.write('alias xstdcmap=\'exit\'\n')
-	bashrc.write('alias xsubpp=\'exit\'\n')
-	bashrc.write('alias xterm=\'exit\'\n')
-	bashrc.write('alias x-terminal-emulator=\'exit\'\n')
-	bashrc.write('alias xvidtune=\'exit\'\n')
-	bashrc.write('alias xvinfo=\'exit\'\n')
-	bashrc.write('alias xwd=\'exit\'\n')
-	bashrc.write('alias xwininfo=\'exit\'\n')
-	bashrc.write('alias xwud=\'exit\'\n')
-	bashrc.write('alias x-www-browser=\'exit\'\n')
-	bashrc.write('alias xxd=\'exit\'\n')
-	bashrc.write('alias xz=\'exit\'\n')
-	bashrc.write('alias xzcat=\'exit\'\n')
-	bashrc.write('alias xzcmp=\'exit\'\n')
-	bashrc.write('alias xzdiff=\'exit\'\n')
-	bashrc.write('alias xzegrep=\'exit\'\n')
-	bashrc.write('alias xzfgrep=\'exit\'\n')
-	bashrc.write('alias xzgrep=\'exit\'\n')
-	bashrc.write('alias xzless=\'exit\'\n')
-	bashrc.write('alias xzmore=\'exit\'\n')
-	bashrc.write('alias yelp=\'exit\'\n')
-	bashrc.write('alias yes=\'exit\'\n')
-	bashrc.write('alias ypdomainname=\'exit\'\n')
-	bashrc.write('alias YUMI.gambas=\'exit\'\n')
-	bashrc.write('alias zcat=\'exit\'\n')
-	bashrc.write('alias zcmp=\'exit\'\n')
-	bashrc.write('alias zdiff=\'exit\'\n')
-	bashrc.write('alias zdump=\'exit\'\n')
-	bashrc.write('alias zegrep=\'exit\'\n')
-	bashrc.write('alias zeitgeist-daemon=\'exit\'\n')
-	bashrc.write('alias zeitgeist-datahub=\'exit\'\n')
-	bashrc.write('alias zenity=\'exit\'\n')
-	bashrc.write('alias zfgrep=\'exit\'\n')
-	bashrc.write('alias zforce=\'exit\'\n')
-	bashrc.write('alias zgrep=\'exit\'\n')
-	bashrc.write('alias zip=\'exit\'\n')
-	bashrc.write('alias zipcloak=\'exit\'\n')
-	bashrc.write('alias zipdetails=\'exit\'\n')
-	bashrc.write('alias zipgrep=\'exit\'\n')
-	bashrc.write('alias zipinfo=\'exit\'\n')
-	bashrc.write('alias zipnote=\'exit\'\n')
-	bashrc.write('alias zipsplit=\'exit\'\n')
-	bashrc.write('alias zjsdecode=\'exit\'\n')
-	bashrc.write('alias zless=\'exit\'\n')
-	bashrc.write('alias zlib-flate=\'exit\'\n')
-	bashrc.write('alias zmore=\'exit\'\n')
-	bashrc.write('alias znew=\'exit\'\n')
-	bashrc.write('alias zsoelim=\'exit\'\n')
+[
+2to3
+2to3-2.7
+2to3-3.4
+a2p
+aconnect
+acpi_listen
+activity-log-manager
+add-apt-repository
+addpart
+addr2line
+alsaloop
+alsamixer
+alsaucm
+amidi
+amixer
+amuFormat.sh
+apg
+apgbfm
+aplay
+aplaymidi
+apport-bug
+apport-cli
+apport-collect
+apport-unpack
+appres
+apropos
+apt
+apt-add-repository
+apt-cache
+apt-cdrom
+apt-config
+aptdcon
+apt-extracttemplates
+apt-ftparchive
+apt-get
+apt-key
+apt-mark
+apt-sortpkgs
+apturl
+apturl-gtk
+ar
+arch
+arecord
+arecordmidi
+arm2hpdl
+arping
+as
+aseqdump
+aseqnet
+aspell
+aspell-import
+assistant
+atobm
+avahi-browse
+avahi-browse-domains
+avahi-publish
+avahi-publish-address
+avahi-publish-service
+avahi-resolve
+avahi-resolve-address
+avahi-resolve-host-name
+avahi-set-host-name
+awk
+axi-cache
+baobab
+base64
+basename
+bash
+bashbug
+bc
+bdftopcf
+bdftruncate
+bitmap
+bluetooth-agent
+bluetooth-sendto
+bluetooth-wizard
+bluez-simple-agent
+bluez-simple-service
+bluez-test-adapter
+bluez-test-audio
+bluez-test-device
+bluez-test-discovery
+bluez-test-input
+bluez-test-manager
+bluez-test-network
+bluez-test-serial
+bluez-test-service
+bluez-test-telephony
+bmtoa
+brasero
+brltty-ctb
+brltty-trtxt
+brltty-ttb
+bsd-from
+bsd-write
+btcflash
+bunzip2
+busybox
+bzcat
+bzcmp
+bzdiff
+bzegrep
+bzexe
+bzfgrep
+bzgrep
+bzip2
+bzip2recover
+bzless
+bzmore
+c2ph
+c89
+c89-gcc
+c99
+c99-gcc
+cal
+calendar
+calibrate_ppa
+canberra-gtk-play
+cancel
+canonical-certification-server
+canonical-driver-test-suite-cli
+captoinfo
+cat
+catchsegv
+catman
+cautious-launcher
+cc
+cd-create-profile
+cd-fix-profile
+cd-iccdump
+cdrecord
+c++filt
+chacl
+chacl
+chage
+chardet
+chardet3
+chardetect3
+charmap
+chattr
+chcon
+checkbox
+checkbox-cli
+checkbox-gui
+check-language-support
+cheese
+chfn
+chgrp
+chkdupexe
+chmod
+chown
+chromium-browser
+chrt
+chsh
+chvt
+cifsdd
+ciptool
+ckbcomp
+cksum
+clear
+clear_console
+cmp
+codepage
+col
+colcrt
+colormgr
+colrm
+column
+combinediff
+comm
+compiz
+compiz-decorator
+compose
+config_data
+corelist
+cp
+cpan
+cpan2dist
+cpanp
+cpanp-run-perl
+cpio
+cpp
+cpp-4.8
+crc32
+credentials-preferences
+c_rehash
+crontab
+csplit
+ctstat
+cups-calibrate
+cupstestdsc
+cupstestppd
+cut
+cvt
+dash
+date
+dbus-cleanup-sockets
+dbus-daemon
+dbus-launch
+dbus-monitor
+dbus-send
+dbus-uuidgen
+dbwrap_tool
+dc
+dconf
+dd
+ddate
+deallocvt
+debconf
+debconf-apt-progress
+debconf-communicate
+debconf-copydb
+debconf-escape
+debconf-set-selections
+debconf-show
+deb-systemd-helper
+deb-systemd-invoke
+dehtmldiff
+deja-dup
+deja-dup-preferences
+delpart
+designer
+desktop-file-edit
+desktop-file-install
+desktop-file-validate
+devdump
+df
+dfutool
+dh_bash-completion
+dh_installxmlcatalogs
+dh_pypy
+dh_python2
+dh_python3
+dialog
+diff
+diff3
+diffstat
+dig
+dir
+dircolors
+dirname
+dirsplit
+dmesg
+dm-tool
+dnsdomainname
+domainname
+do-release-upgrade
+dotlockfile
+dpkg
+dpkg-deb
+dpkg-divert
+dpkg-log-summary
+dpkg-maintscript-helper
+dpkg-query
+dpkg-split
+dpkg-statoverride
+dpkg-trigger
+du
+dumpkeys
+dumpkeys
+duplicity
+dvd-ram-control
+dvd+rw-booktype
+dvd+rw-format
+dvd+rw-mediainfo
+dvipdf
+dwp
+echo
+ed
+edit
+editdiff
+editor
+editres
+egrep
+eject
+elfedit
+empathy
+empathy-accounts
+empathy-debugger
+enc2xs
+enchant
+enchant-lsmod
+env
+envsubst
+eog
+eps2eps
+eqn
+esc-m
+evince
+evince-previewer
+evince-thumbnailer
+ex
+expand
+expiry
+expr
+factor
+faillog
+fallocate
+false
+fc-cache
+fc-cat
+fc-list
+fc-match
+fc-pattern
+fc-query
+fc-scan
+fc-validate
+fgconsole
+fgrep
+file
+file-roller
+filterdiff
+find
+find2perl
+findmnt
+firefox
+fixcvsdiff
+fix-qdf
+flipdiff
+flock
+fmt
+fold
+font2c
+fonttosfnt
+foo2hbpl2
+foo2hbpl2-wrapper
+foo2hiperc
+foo2hiperc-wrapper
+foo2hp
+foo2hp2600-wrapper
+foo2lava
+foo2lava-wrapper
+foo2oak
+foo2oak-wrapper
+foo2qpdl
+foo2qpdl-wrapper
+foo2slx
+foo2slx-wrapper
+foo2xqx
+foo2xqx-wrapper
+foo2zjs
+foo2zjs-icc2ps
+foo2zjs-pstops
+foo2zjs-wrapper
+free
+friends-dispatcher
+friends-service
+from
+fslsfonts
+fstobdf
+ftp
+funzip
+fuser
+fusermount
+gamma4scanimage
+gatttool
+gbr3
+gbx3
+gcalccmd
+gcc
+gcc-4.8
+gcc-ar
+gcc-ar-4.8
+gcc-nm
+gcc-nm-4.8
+gcc-ranlib
+gcc-ranlib-4.8
+gconf-merge-tree
+gconftool
+gconftool-2
+gcore
+gcov
+gcov-4.8
+gcr-viewer
+gdb
+gdbtui
+gdbus
+gdialog
+gedit
+gencat
+genisoimage
+geqn
+getconf
+geteltorito
+getent
+getfacl
+getfacl
+gethostip
+getkeycodes
+getopt
+gettext
+gettextize
+gettext.sh
+ghostscript
+ginstall-info
+gio-querymodules
+gipddecode
+git
+git-receive-pack
+git-shell
+git-upload-archive
+git-upload-pack
+gkbd-keyboard-display
+glib-compile-resources
+glib-compile-schemas
+gnome-calculator
+gnome-character-map
+gnome-contacts
+gnome-disk-image-mounter
+gnome-disks
+gnome-file-share-properties
+gnome-font-viewer
+gnome-help
+gnome-keyring
+gnome-keyring-3
+gnome-keyring-daemon
+gnome-language-selector
+gnome-power-statistics
+gnome-screensaver
+gnome-screensaver-command
+gnome-screenshot
+gnome-session
+gnome-session-inhibit
+gnome-session-properties
+gnome-session-quit
+gnome-system-log
+gnome-system-log-pkexec
+gnome-system-monitor
+gnome-terminal
+gnome-terminal.wrapper
+gnome-text-editor
+gnome-thumbnail-font
+gnome-www-browser
+gold
+gparted-pkexec
+gpasswd
+gpg
+gpgsplit
+gpgv
+gpg-zip
+gpic
+gprof
+gpu-manager
+grep
+grepdiff
+gresource
+groff
+grog
+grops
+grotty
+groups
+growisofs
+grub-editenv
+grub-file
+grub-fstest
+grub-glue-efi
+grub-kbdcomp
+grub-menulst2cfg
+grub-mkfont
+grub-mkimage
+grub-mklayout
+grub-mknetdir
+grub-mkpasswd-pbkdf2
+grub-mkrelpath
+grub-mkrescue
+grub-mkstandalone
+grub-mount
+grub-ntldr-img
+grub-render-label
+grub-script-check
+grub-syslinux2cfg
+gs
+gsbj
+gsdj
+gsdj500
+gsettings
+gsettings-data-convert
+gsettings-schema-convert
+gslj
+gslp
+gsnd
+gst-discoverer-0.10
+gst-discoverer-1.0
+gst-feedback-0.10
+gst-inspect-0.10
+gst-inspect-1.0
+gst-install
+gst-launch-0.10
+gst-launch-1.0
+gst-play-1.0
+gstreamer-codec-install
+gst-typefind-0.10
+gst-typefind-1.0
+gst-visualise-0.10
+gst-xmlinspect-0.10
+gst-xmllaunch-0.10
+gtbl
+gtf
+gtk-launch
+gtk-update-icon-cache
+gtk-update-icon-cache-3.0
+gtk-window-decorator
+gucharmap
+guild
+gunzip
+gvfs-cat
+gvfs-copy
+gvfs-info
+gvfs-less
+gvfs-ls
+gvfs-mime
+gvfs-mkdir
+gvfs-monitor-dir
+gvfs-monitor-file
+gvfs-mount
+gvfs-move
+gvfs-open
+gvfs-rename
+gvfs-rm
+gvfs-save
+gvfs-set-attribute
+gvfs-trash
+gvfs-tree
+gzexe
+gzip
+h2ph
+h2xs
+hardening-check
+hbpldecode
+hcitool
+hd
+head
+helpztags
+hexdump
+hipercdecode
+host
+hostid
+hostname
+hostnamectl
+hp-align
+hp-check
+hp-clean
+hp-colorcal
+hp-config_usb_printer
+hp-doctor
+hp-firmware
+hp-hpdio
+hp-info
+hp-levels
+hp-logcapture
+hp-makeuri
+hp-pkservice
+hp-plugin
+hp-plugin-ubuntu
+hp-probe
+hp-query
+hp-scan
+hp-setup
+hp-testpage
+hp-timedate
+hp-unload
+i386
+ibus
+ibus-daemon
+ibus-setup
+ibus-table-createdb
+iceauth
+ico
+iconv
+id
+iecset
+ijs_pxljr
+im-config
+im-launch
+info
+infobrowser
+infocmp
+infokey
+infotocap
+init-checkconf
+initctl2dot
+inputattach
+install
+install-info
+install-printerdriver
+instmodsh
+intel_audio_dump
+intel_backlight
+intel_bios_dumper
+intel_bios_reader
+intel_disable_clock_gating
+intel_dpio_read
+intel_dpio_write
+intel_error_decode
+intel_forcewaked
+intel_gpu_abrt
+intel_gpu_time
+intel_gpu_top
+intel_gtt
+intel_l3_parity
+intel_reg_checker
+intel_reg_dumper
+intel_reg_read
+intel_reg_snapshot
+intel_reg_write
+intel_sprite_on
+intel_stepping
+intel_upload_blit_large
+intel_upload_blit_large_gtt
+intel_upload_blit_large_map
+intel_upload_blit_small
+interdiff
+ionice
+ip
+ipcmk
+ipcrm
+ipcs
+ipod-read-sysinfo-extended
+ipod-time-sync
+ippfind
+ipptool
+iproxy
+iptables-xml
+ischroot
+isdv4-serial-debugger
+isodump
+isohybrid
+isohybrid.pl
+isoinfo
+isovfy
+ispell-wrapper
+join
+json_pp
+kbdinfo
+kbd_mode
+kerneloops-submit
+kill
+killall
+kmod
+koi8rxterm
+l2ping
+l2test
+landscape-client-ui-install
+last
+lastb
+lastlog
+lavadecode
+lcf
+lconvert
+ld
+ld.bfd
+ldd
+ld.gold
+less
+less
+lessecho
+lessecho
+lessfile
+lessfile
+lesskey
+lesskey
+lesspipe
+lesspipe
+lexgrog
+libnetcfg
+libreoffice
+line
+linguist
+link
+lintian
+lintian-info
+linux32
+linux64
+linux-boot-prober
+listres
+ln
+lnstat
+loadkeys
+loadkeys
+loadunimap
+localc
+locale
+localectl
+localedef
+locate
+lockfile-check
+lockfile-create
+lockfile-remove
+lockfile-touch
+lodraw
+loffice
+lofromtemplate
+logger
+login
+loginctl
+logname
+loimpress
+lomath
+look
+lorder
+loweb
+lowntfs-3g
+lowriter
+lp
+lpoptions
+lppasswd
+lpq
+lpr
+lprm
+lp_solve
+lpstat
+lrelease
+ls
+lsattr
+lsblk
+lsb_release
+lscpu
+lsdiff
+lshw
+lsinitramfs
+lsmod
+lsof
+lspci
+lspgpot
+lss16toppm
+lsusb
+ltrace
+luit
+lupdate
+lxterm
+lz
+lzcat
+lzcmp
+lzdiff
+lzegrep
+lzfgrep
+lzgrep
+lzless
+lzma
+lzmainfo
+lzmore
+mail-lock
+mail-touchlock
+mail-unlock
+make
+man
+mandb
+manhole
+manpath
+mapscrn
+mattrib
+mawk
+mbadblocks
+mcat
+mcd
+mcheck
+mclasserase
+mcomp
+mcookie
+mcopy
+mc-tool
+mc-wait-for-name
+md5pass
+md5sum
+md5sum.textutils
+mdel
+mdeltree
+mdir
+mdu
+memdiskfind
+mesg
+mformat
+mimeopen
+mimetype
+min12xxw
+minfo
+miniterm.py
+mkdir
+mkdiskimage
+mkfifo
+mkfontdir
+mkfontscale
+mkisofs
+mkmanifest
+mk_modmap
+mknod
+mktemp
+mkzftree
+mlabel
+mlocate
+mmcli
+mmd
+mmount
+mmove
+moc
+more
+mount
+mountpoint
+mousetweaks
+mpartition
+mrd
+mren
+mscompress
+msexpand
+msgattrib
+msgcat
+msgcmp
+msgcomm
+msgconv
+msgen
+msgexec
+msgfilter
+msgfmt
+msggrep
+msginit
+msgmerge
+msgunfmt
+msguniq
+mshortname
+mshowfat
+mt
+mt-gnu
+mtools
+mtoolstest
+mtr
+mtrace
+mtype
+mv
+mxtar
+mzip
+namei
+nano
+nano
+nautilus
+nautilus-autorun-software
+nautilus-connect-server
+nautilus-sendto
+nawk
+nc
+ncal
+nc.openbsd
+ncurses5-config
+ncursesw5-config
+neqn
+net
+netcat
+netkit-ftp
+netstat
+newgrp
+ngettext
+nice
+nisdomainname
+nl
+nm
+nm-applet
+nmblookup
+nmcli
+nm-connection-editor
+nm-online
+nm-tool
+nohup
+notify-send
+nproc
+nroff
+nslookup
+nstat
+nsupdate
+ntfs-3g
+ntfs-3g.probe
+ntfs-3g.secaudit
+ntfs-3g.usermap
+ntfscat
+ntfsck
+ntfscluster
+ntfscmp
+ntfsdecrypt
+ntfsdump_logfile
+ntfsfix
+ntfsinfo
+ntfsls
+ntfsmftalloc
+ntfsmove
+ntfstruncate
+ntfswipe
+numfmt
+nvidia-detector
+oakdecode
+obex-data-server
+objcopy
+objdump
+oclock
+od
+ods-server
+oldfind
+omshell
+on_ac_power
+onboard
+onboard-settings
+oneconf-query
+online-accounts-preferences
+open
+openssl
+openvt
+opldecode
+orca
+os-prober
+p11-kit
+pacat
+pacmd
+pactl
+padsp
+pager
+pamon
+paperconf
+paplay
+parec
+parecord
+parsechangelog
+partx
+passwd
+paste
+pasuspender
+patch
+pathchk
+pax11publish
+pcimodules
+pdb
+pdb2.7
+pdb3
+pdb3.4
+pdf2dsc
+pdf2ps
+pdfdetach
+pdffonts
+pdfimages
+pdfinfo
+pdfseparate
+pdftocairo
+pdftohtml
+pdftoppm
+pdftops
+pdftotext
+pdfunite
+peekfd
+perl
+perl5.18.2
+perlbug
+perldoc
+perlivp
+perlthanks
+pf2afm
+pfbtopfa
+pftp
+pg
+pgrep
+pic
+pico
+piconv
+pidof
+pilconvert.py
+pildriver.py
+pilfile.py
+pilfont.py
+pilprint.py
+ping
+ping6
+pinky
+pixeltool
+pkaction
+pkcheck
+pkexec
+pkg-config
+pkill
+pkttyagent
+pl2pm
+plainbox-trusted-launcher-1
+pldd
+plog
+plymouth
+plymouth-upstart-bridge
+pmap
+pm-is-supported
+pnm2ppa
+pod2html
+pod2latex
+pod2latex.bundled
+pod2man
+pod2text
+pod2usage
+podchecker
+podselect
+poff
+pon
+ppdc
+ppdhtml
+ppdi
+ppdmerge
+ppdpo
+pphs
+ppmtolss16
+pr
+precat
+preconv
+prename
+preunzip
+prezip
+prezip-bin
+print
+printafm
+printenv
+printerbanner
+printer-profile
+printf
+prove
+prtstat
+ps
+ps2ascii
+ps2epsi
+ps2pdf
+ps2pdf12
+ps2pdf13
+ps2pdf14
+ps2pdfwr
+ps2ps
+ps2ps2
+ps2txt
+psed
+psfaddtable
+psfgettable
+psfstriptable
+psfxtable
+pstree
+pstree.x11
+pstruct
+ptar
+ptardiff
+ptargrep
+ptx
+pulseaudio
+purple-remote
+purple-send
+purple-send-async
+purple-url-handler
+pwd
+pwdx
+pxelinux-options
+py3clean
+py3compile
+py3versions
+pybuild
+pyclean
+pycompile
+pydoc
+pydoc2.7
+pydoc3
+pydoc3.4
+pygettext
+pygettext2.7
+pygettext3
+pygettext3.4
+pyhtmlizer
+python
+python2
+python2.7
+python3
+python3.4
+python3.4m
+python3m
+pyversions
+qcollectiongenerator
+qdbus
+qdbuscpp2xml
+qdbusviewer
+qdbusxml2cpp
+qdoc
+qdoc3
+qglinfo
+qhelpconverter
+qhelpgenerator
+qmake
+qml
+qml1plugindump
+qmlbundle
+qmlimportscanner
+qmlmin
+qmlplugindump
+qmlprofiler
+qmlscene
+qmltestrunner
+qmlviewer
+qpdf
+qpdldecode
+qtchooser
+qtconfig
+qtpaths
+quirks-handler
+ranlib
+rbash
+rcc
+rcp
+rctest
+rdiffdir
+readelf
+readlink
+readom
+recode-sr-latin
+recountdiff
+red
+rediff
+remmina
+rename
+rename.ul
+rendercheck
+renice
+reset
+resize
+resizecons
+resizepart
+rev
+rfcomm
+rgrep
+rhythmbox
+rhythmbox-client
+rlogin
+rm
+rmdir
+rnano
+routef
+routel
+rpcclient
+rpcgen
+rpl8
+rsh
+rstart
+rstartd
+rsync
+rtstat
+runcon
+run-mailcap
+running-in-container
+run-parts
+run-with-aspell
+rview
+rvim
+s2p
+samba-regedit
+samba-tool
+sane-find-scanner
+savelog
+scanimage
+scp
+scp-dbus-service
+screendump
+script
+scriptreplay
+sdiff
+sdptool
+seahorse
+sed
+see
+select-default-iwrap
+select-editor
+sensible-browser
+sensible-editor
+sensible-pager
+seq
+service
+session-installer
+session-migration
+sessreg
+setarch
+setfacl
+setfacl
+setfont
+setkeycodes
+setleds
+setlogcons
+setmetamode
+setpci
+setsid
+setterm
+setupcon
+setxkbmap
+sftp
+sg
+sh
+sha1pass
+sha1sum
+sha224sum
+sha256sum
+sha384sum
+sha512sum
+shasum
+sh.distrib
+shotwell
+showconsolefont
+showfont
+showkey
+showrgb
+shred
+shuf
+signond
+signonpluginprocess
+signon-ui
+simple-scan
+size
+skill
+skype
+slabtop
+sleep
+slogin
+slxdecode
+smbcacls
+smbclient
+smbcquotas
+smbget
+smbpasswd
+smbspool
+smbtar
+smbtree
+smproxy
+snice
+soelim
+soffice
+software-center
+software-center-gtk3
+software-properties-gtk
+sort
+sotruss
+spd-conf
+spd-say
+speaker-test
+speech-dispatcher
+splain
+split
+splitdiff
+splitfont
+sprof
+ss
+ssh
+ssh-add
+ssh-agent
+ssh-argv0
+ssh-askpass
+ssh-copy-id
+ssh-keygen
+ssh-keyscan
+start-pulseaudio-kde
+start-pulseaudio-x11
+startx
+stat
+static-sh
+stdbuf
+strace
+strings
+strip
+stty
+su
+sudo
+sudoedit
+sudoreplay
+sum
+sync
+synclient
+syndaemon
+syslinux
+syslinux2ansi
+syslinux-legacy
+system-config-printer
+system-config-printer-applet
+t1ascii
+t1asm
+t1binary
+t1disasm
+t1mac
+t1unmac
+tabs
+tac
+tail
+tailf
+tap2deb
+tap2rpm
+tapconvert
+tar
+taskset
+tbl
+tclsh
+tclsh8.6
+tee
+telepathy-indicator
+telnet
+telnet.netkit
+tempfile
+test
+testparm
+tgz
+thunderbird
+tic
+time
+timedatectl
+timeout
+tload
+toe
+top
+toshset
+totem
+totem-audio-preview
+totem-video-thumbnailer
+touch
+touch
+tput
+tr
+tracepath
+tracepath6
+traceroute6
+traceroute6.iputils
+transmission-gtk
+transset
+trial
+troff
+true
+truncate
+trust
+tset
+tsort
+tst_inactivity_timer
+ttfread
+tty
+twistd
+tzselect
+ubuntu-bug
+ubuntu-drivers
+ubuntu-support-status
+ubuntu-webapps-update-index
+ucf
+ucfq
+ucfr
+ucs2any
+udevadm
+udisksctl
+uic
+uic3
+ul
+ulockmgr_server
+umax_pp
+umount
+uname
+unattended-upgrade
+unattended-upgrades
+uncompress
+unexpand
+unicode_start
+unicode_stop
+uniq
+unity
+unity-control-center
+unity-scope-loader
+unity-settings-daemon
+unity-webapps-desktop-file
+unity-webapps-qml-launcher
+unity-webapps-runner
+unlink
+unlzma
+unopkg
+unshare
+unwrapdiff
+unxz
+unzip
+unzipsfx
+update-alternatives
+updatedb
+updatedb.mlocate
+update-desktop-database
+update-gconf-defaults
+update-manager
+update-mime-database
+update-mime-database.real
+update-notifier
+upower
+uptime
+usb-creator-gtk
+usb-devices
+usbhid-dump
+usb_printerid
+users
+uuidgen
+uxterm
+uz
+vdir
+vi
+view
+viewres
+vim
+vim.basic
+vimdiff
+vim.tiny
+vimtutor
+vino-passwd
+vino-preferences
+vmmouse_detect
+vmstat
+vmwarectrl
+volname
+vstp
+w
+wall
+watch
+wc
+webapp-container
+webbrowser-app
+wftopfa
+wget
+whatis
+whereis
+which
+which
+whiptail
+who
+whoami
+whoopsie
+whoopsie-preferences
+wish
+wish8.6
+wodim
+word-list-compress
+wpa_passphrase
+w.procps
+write
+X
+X11
+x11perf
+x11perfcomp
+x86_64
+x86_64-linux-gnu-addr2line
+x86_64-linux-gnu-ar
+x86_64-linux-gnu-as
+x86_64-linux-gnu-c++filt
+x86_64-linux-gnu-cpp
+x86_64-linux-gnu-cpp-4.8
+x86_64-linux-gnu-dwp
+x86_64-linux-gnu-elfedit
+x86_64-linux-gnu-gcc
+x86_64-linux-gnu-gcc-4.8
+x86_64-linux-gnu-gcc-ar
+x86_64-linux-gnu-gcc-ar-4.8
+x86_64-linux-gnu-gcc-nm
+x86_64-linux-gnu-gcc-nm-4.8
+x86_64-linux-gnu-gcc-ranlib
+x86_64-linux-gnu-gcc-ranlib-4.8
+x86_64-linux-gnu-gcov
+x86_64-linux-gnu-gcov-4.8
+x86_64-linux-gnu-gprof
+x86_64-linux-gnu-ld
+x86_64-linux-gnu-ld.bfd
+x86_64-linux-gnu-ld.gold
+x86_64-linux-gnu-nm
+x86_64-linux-gnu-objcopy
+x86_64-linux-gnu-objdump
+x86_64-linux-gnu-ranlib
+x86_64-linux-gnu-readelf
+x86_64-linux-gnu-size
+x86_64-linux-gnu-strings
+x86_64-linux-gnu-strip
+xargs
+xauth
+xbiff
+xcalc
+xclipboard
+xclock
+xcmsdb
+xconsole
+xcursorgen
+xcutsel
+xdg-desktop-icon
+xdg-desktop-menu
+xdg-email
+xdg-icon-resource
+xdg-mime
+xdg-open
+xdg-screensaver
+xdg-settings
+xdg-user-dir
+xdg-user-dirs-gtk-update
+xdg-user-dirs-update
+xdiagnose
+xditview
+xdpyinfo
+xdriinfo
+xedid
+xedit
+xev
+xeyes
+xfd
+xfontsel
+xfsinfo
+xgamma
+xgc
+xgettext
+xhost
+xinit
+xinput
+xkbbell
+xkbcomp
+xkbevd
+xkbprint
+xkbvleds
+xkbwatch
+xkeystone
+xkill
+xload
+xlogo
+xlsatoms
+xlsclients
+xlsfonts
+xmag
+xman
+xmessage
+xmlpatterns
+xmlpatternsvalidator
+xmodmap
+xmore
+Xorg
+xpci
+xprop
+xqxdecode
+xrandr
+xrandr-tool
+xrdb
+xrefresh
+xrotate
+x-session-manager
+xset
+xsetmode
+xsetpointer
+xsetroot
+xsetwacom
+xsm
+xstdcmap
+xsubpp
+xterm
+x-terminal-emulator
+xvidtune
+xvinfo
+xwd
+xwininfo
+xwud
+x-www-browser
+xxd
+xz
+xzcat
+xzcmp
+xzdiff
+xzegrep
+xzfgrep
+xzgrep
+xzless
+xzmore
+yelp
+yes
+ypdomainname
+YUMI.gambas
+zcat
+zcmp
+zdiff
+zdump
+zegrep
+zeitgeist-daemon
+zeitgeist-datahub
+zenity
+zfgrep
+zforce
+zgrep
+zip
+zipcloak
+zipdetails
+zipgrep
+zipinfo
+zipnote
+zipsplit
+zjsdecode
+zless
+zlib-flate
+zmore
+znew
+zsoelim
