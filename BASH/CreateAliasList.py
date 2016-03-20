@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+#To get the alias list run this:
+#{ ls /bin; ls /usr/bin; } | sort > /home/aaron/Desktop/PyScripts/aliases.txt
+
 import fileinput
 
 s = 'hello world'
