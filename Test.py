@@ -1,19 +1,28 @@
 #!/usr/bin/env python
 
-import fileinput
+#Currently run this to make this work.
+#Test.py >> /home/aaron/.bashrc
 
-s = 'hello world'
-print s
-
-for line in fileinput.input("/home/aaron/Desktop/PyScripts/aliases.txt", inplace=True):
-	output = "\tbashrc.write('alias " + line.rstrip('\n') + "=\\'exit\\'\\n')"
-	print output
+import subprocess
 
 
+aliasesProcess = subprocess.Popen("{ ls /bin; ls /usr/bin; } | sort", shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+for line in aliasesProcess.stdout.readlines():
+	if line.rstrip('\n') == "vi":
+		print ""
+	elif line.rstrip('\n') == "vim":
+		print ""
+	else:
+		print "alias " + line.rstrip('\n') + "=\'exit\'"
 
-'''
-with open("/home/aaron/Desktop/PyScripts/aliases.txt", 'r') as inputFile, open("/home/aaron/Desktop/PyScripts/aliasestest.txt", 'w') as outputFile:
-	for line in inputFile:
-		output = "\tbashrc.write('alias " + line.rstrip('\n') + "=\\'exit\\'\\n')\n"
-		outputFile.write(output)
-'''
+nameProcess = subprocess.Popen("echo $USER", shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+name = nameProcess.stdout.readline()
+
+print "alias plzfix='vim /home/" + name.rstrip('\n') + "/.bashrc'"
+print "alias plzfixthis='vi /home/" + name.rstrip('\n') + "/.bashrc'"
+print "alias sudo='exit'"
+print "alias cd='exit'"
+print "alias ls='exit'"
+print "alias alias='exit'"
+
+
