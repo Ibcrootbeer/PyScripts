@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #Currently run this to make this work.
-#Test.py >> /home/aaron/.bashrc
+#Test.py >> /home/$USER/.bashrc
 
 import subprocess
 

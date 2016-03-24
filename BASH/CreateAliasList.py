@@ -29,5 +29,9 @@ for line in fileinput.input("/home/aaron/Desktop/PyScripts/BASH/aliases.txt", in
 	print output
 
 #TODO Mabey make it force close any open terminals.
+#to get all processes
+#ps aux
+#to close terminals grep that for term and
+#kill PROCESSID
 #TODO End goal is that this generates the entire "Are you BASHful.py" file and ten runs it.
 #TODO Do all of this for every user on a machine
