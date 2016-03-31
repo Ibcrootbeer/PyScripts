@@ -2,9 +2,8 @@
 
 import sys
 
-userinput = raw_input()
 
-def decode():
+def decode(userinput):
 	output = ''
 	for i in userinput:
 		if i == 'q':
@@ -200,7 +199,7 @@ def decode():
 			output += '~'
 	return output
 
-def encode():
+def encode(userinput):
 	output = ''
 	for i in userinput:
 		if i == '\'':
@@ -399,12 +398,12 @@ def encode():
 if len(sys.argv) != 2:
 	print "Incorrect number of arguments."
 elif sys.argv[1] == '-e':
-	print(encode())
+	print(encode(raw_input()))
 elif sys.argv[1] == '-d':
-	print(decode())
+	print(decode(raw_input()))
 elif sys.argv[1] == '-test':
-	print "In: " + userinput
-	print "Encoded: " + encode()
-	userinput = encode()
-	print "Decoded: " + decode()
-	
+	userinput = raw_input("In: \t\t")
+	encoded = encode(userinput)
+	decoded = decode(encoded)
+	print "Encoded: \t" + encoded
+	print "Decoded: \t" + decoded

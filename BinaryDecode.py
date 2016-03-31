@@ -7,7 +7,7 @@ userinput = raw_input()
 def decode(encodinglength):
 	output = ''
 	for i in range(0, len(userinput), encodinglength):
-		output += str(unichr(int(userinput[i:i+encodinglength],2)))
+		output += str(unichr(int(userinput[i:i + encodinglength], 2)))
 	print output
 
 def default():
@@ -22,7 +22,7 @@ def default():
 
 try:
 	if sys.argv[1] == "-a":
-		for i in range(1,100):
+		for i in range(100):
 			try:
 				decode(i)
 			except:

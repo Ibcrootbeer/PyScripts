@@ -24,16 +24,23 @@ def crypt(message, key, conversion):
 			else:
 				output.append(str(unichr(decrypt(i, testkey[counter]) + 97)))
 			counter = (counter + 1) % len(testkey)
-	for i in range(0, len(output)):
+	for i in range(len(output)):
 		if message[i].isupper():
 			output[i] = output[i].upper()
-	print ''.join(output)
+	return ''.join(output)
 
-if len(sys.argv) != 3:
+if len(sys.argv) == 2 and sys.argv[1] == '-test':
+	userinputphrase = raw_input("Phrase: ")
+	userinputkey = raw_input("Key: ")
+	encrypted = crypt(userinputphrase, userinputkey, "encrypt")
+	decrypted = crypt(encrypted, userinputkey, "decrypt")
+	print "Encrypted: " + encrypted
+	print "Decrypted: " + decrypted
+elif len(sys.argv) != 3:
 	print "Incorrect number of arguments."
 elif sys.argv[1] == '-e':
-	crypt(raw_input(), sys.argv[2], "encrypt")
+	print crypt(raw_input(), sys.argv[2], "encrypt")
 elif sys.argv[1] == '-d':
-	crypt(raw_input(), sys.argv[2], "decrypt")
+	print crypt(raw_input(), sys.argv[2], "decrypt")
 else:
 	print "Are the arguments in the wrong order?"
