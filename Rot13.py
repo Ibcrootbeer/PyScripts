@@ -2,7 +2,7 @@
 
 import sys
 
-def encode(message):
+def rotate(message):
     output = []
     for i in message.lower():
         if ord(i) >= 97 and ord(i) <= 97 + 25:
@@ -16,11 +16,11 @@ def encode(message):
 
 if len(sys.argv) > 1 and sys.argv[1] == '-test':
     userinput = raw_input("In: \t\t")
-    encoded = encode(userinput)
-    decoded = encode(encoded)
+    encoded = rotate(userinput)
+    decoded = rotate(encoded)
     print "Encoded: \t" + encoded
     print "Decoded: \t" + decoded
 elif len(sys.argv) == 1:
-    print encode(raw_input())
+    print rotate(raw_input())
 else:
     print "Too many arguments"
