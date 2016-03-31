@@ -32,7 +32,7 @@ if len(sys.argv) == 1:
 			os.system("echo source " + "/home/" + user + "/.aliases >> /home/" + user + "/.bashrc")
 	else:
 		print "That's a no."
-elif len(sys.argv == 2 and sys.argv[1] == '-y'):
+elif len(sys.argv == 2) and sys.argv[1] == '-y':
 		appendAliases("/root/.aliases")
 		os.system("echo source /root/.aliases >> /root/.bashrc")
 		
@@ -40,4 +40,4 @@ elif len(sys.argv == 2 and sys.argv[1] == '-y'):
 			appendAliases("/home/" + user + "/.aliases")
 			os.system("echo source " + "/home/" + user + "/.aliases >> /home/" + user + "/.bashrc")
 else:
-	print "Saving youself"
+	print "Saving yourself"
