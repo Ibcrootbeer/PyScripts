@@ -2,8 +2,9 @@
 
 import fileinput
 import sys
+import os
 
-path = "/home/aaron/Desktop/sshd_config"
+path = "/etc/ssh/sshd_config"
             
 def ChangeSetting(setting, value):
     exists = False
@@ -43,3 +44,5 @@ elif len(sys.argv) == 5:
         ChangeSetting("ListenAddress", sys.argv[4])
 else:
     print "Are the arguments in the right order?"
+
+os.system("sudo service ssh restart")
