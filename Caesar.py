@@ -2,6 +2,16 @@
 
 import sys
 
+'''
+Fancy Rot13.
+No command line arguments will decode the message 26 times.
+Adding a number will rotate the message that many times.
+Caesar.py
+Caesar.py 10
+'''
+
+
+#Same as Rot13 except for one difference that it can do a variable number of rotations.
 def rotate(message, rotations):
     output = []
     for i in message.lower():
@@ -14,6 +24,7 @@ def rotate(message, rotations):
             output[i] = output[i].upper()
     return ''.join(output)
 
+#Command line stuff.
 if len(sys.argv) > 1 and sys.argv[1] == '-test':
     userinput = raw_input("In: \t\t")
     print "Rotated: \t" + rotate(userinput, 1)

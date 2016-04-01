@@ -2,7 +2,12 @@
 
 import sys
 
+'''
+Dvorak.py -e
+Dvorak.py -d
+'''
 
+#Takes input from standard keyboard and changes it to Dvorak layout.
 def decode(userinput):
 	output = ''
 	for i in userinput:
@@ -199,6 +204,8 @@ def decode(userinput):
 			output += '~'
 	return output
 
+
+#Takes input from Dvorak and converts it to standard.
 def encode(userinput):
 	output = ''
 	for i in userinput:
@@ -395,6 +402,7 @@ def encode(userinput):
 			output += '~'
 	return output
 
+#Command line stuff.
 if len(sys.argv) != 2:
 	print "Incorrect number of arguments."
 elif sys.argv[1] == '-e':

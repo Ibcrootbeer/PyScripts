@@ -5,6 +5,9 @@ import sys
 '''
 All of my math for the ascii code is done on a scale from 0 to 25 so that's why you see the -97's.
 a=0 b=1 ... So to encrypt it adds the two values together so if the key starts with b and the input starts with c it adds together 1 + 2 to get 3 so it comes out as d. 
+EXAMPLES
+Vigenere.py -e <KEY>
+Vigenere.py -d <KEY>
 '''
 
 #Used to tuncate the code a bit. Just so I didnt have to write this out every time.
@@ -44,10 +47,6 @@ def crypt(message, key, conversion):
 	return ''.join(output)
 
 #This is just all the command line stuff. Don't worry about the -test parameter I use that for testing it in my IDE.
-#Examples of calls.
-#Vigenere.py -e <KEY>
-#Vigenere.py -d <KEY>
-#Anything outside of that format will not be accepted.
 if len(sys.argv) == 2 and sys.argv[1] == '-test':
 	userinputphrase = raw_input("Phrase: ")
 	userinputkey = raw_input("Key: ")

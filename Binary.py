@@ -2,28 +2,30 @@
 
 import sys
 
+'''
+Encodes and Decode binary.
+You don't really need the numbers after it it will default to 7 and the decode will default to 7 or 8.
+Binary.py -e
+Binary.py -d
+Binary.py -e 10
+Binary.py -d 10
+'''
+
+#This decodes the binary message. Encodinglength is how I make it do a variable ammout of zeros.
 def decode(encodinglength, message):
     output = ''
     for i in range(0, len(message), encodinglength):
+        #Chunks up the binary and turns it into characters.
         output += str(unichr(int(message[i:i + encodinglength], 2)))
     return output
 
-def default():
-    userinput = raw_input()
-    if ((len(userinput) % 7 == 0) and (len(userinput) % 8 == 0)):
-        decode(7)
-        decode(8)
-
-    elif len(userinput) % 7 == 0:
-        decode(7)
-    elif len(userinput) % 8 == 0:
-        decode(8)
-
+#This is used for encoding so that the outputed binary has the correct number of zeros.
 def fillzeros(length, binary):
     while len(binary) < length:
         binary = "0" + binary
     return binary
 
+#Encodes the message that is put in into binary. Again encodinglength is used to set a variable ammout of zeros.
 def encode(encodinglength, message):
     binarylist = []
     output = ''
@@ -37,6 +39,7 @@ def encode(encodinglength, message):
             output+= binary
     return output
 
+#All the command line stuf.
 if len(sys.argv) > 3:
     print "Too many arguments."
 elif len(sys.argv) == 2 and sys.argv[1] == '-test':
