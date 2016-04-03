@@ -17,7 +17,7 @@ print "Finished installing openssh-server"
 
 os.system("sudo apt-get -y install vsftpd")
 for line in fileinput.input("/etc/vsftpd.conf", inplace=True):
-	if line.rstrip('\n') == "#ftpd_banner=Welcome to blah FTP service.":
+	if line.startswith("#ftpd_banner=") or line.startswith("ftpd_banner="):
 		print "ftpd_banner=Shadow!"
 	else:
 		print line.rstrip('\n')

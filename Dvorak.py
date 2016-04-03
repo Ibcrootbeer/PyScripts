@@ -30,9 +30,11 @@ def combine(layout1, layout2):
 	for i in range(len(layout1)):
 		output[layout1[i]] = layout2[i]
 	return output
+
 #All keys from both layouts. If you wanted to add more layouts it would be trivial.
 standard = 	" `1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./~!@#$%^&*()_+QWERTYUIOP{}|ASDFGHJKL:\"ZXCVBNM<>?"
 dvorak = 	" `1234567890[]',.pyfgcrl/=\\aoeuidhtns-;qjkxbmwvz~!@#$%^&*(){}\"<>PYFGCRL?+|AOEUIDHTNS_:QJKXBMWVZ"
+
 
 combined = combine(standard, dvorak)
 
