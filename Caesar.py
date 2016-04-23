@@ -24,22 +24,24 @@ def rotate(message, rotations):
             output[i] = output[i].upper()
     return ''.join(output)
 
-#Command line stuff.
-if len(sys.argv) > 1 and sys.argv[1] == '-test':
-    userinput = raw_input("In: \t\t")
-    print "Rotated: \t" + rotate(userinput, 1)
-elif len(sys.argv) == 1:
-    userinput = raw_input()
-    for i in range(1,26):
-        print rotate(userinput, i)
-elif len(sys.argv) == 2 :
-    check = True
-    try:
-        int(sys.argv[1])
-    except:
-        print "That is not a number"
-        check = False
-    if check:
-        print rotate(raw_input(), int(sys.argv[1]))
-else:
-    print "Too many arguments"
+#This is a horrible thing and I hate it
+if __name__ == "__main__":
+    #Command line stuff.
+    if len(sys.argv) > 1 and sys.argv[1] == '-test':
+        userinput = raw_input("In: \t\t")
+        print "Rotated: \t" + rotate(userinput, 1)
+    elif len(sys.argv) == 1:
+        userinput = raw_input()
+        for i in range(1,26):
+            print rotate(userinput, i)
+    elif len(sys.argv) == 2 :
+        check = True
+        try:
+            int(sys.argv[1])
+        except:
+            print "That is not a number"
+            check = False
+        if check:
+            print rotate(raw_input(), int(sys.argv[1]))
+    else:
+        print "Too many arguments"

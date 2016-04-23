@@ -46,19 +46,21 @@ def crypt(message, key, conversion):
 			output[i] = output[i].upper()
 	return ''.join(output)
 
-#This is just all the command line stuff. Don't worry about the -test parameter I use that for testing it in my IDE.
-if len(sys.argv) == 2 and sys.argv[1] == '-test':
-	userinputphrase = raw_input("Phrase: ")
-	userinputkey = raw_input("Key: ")
-	encrypted = crypt(userinputphrase, userinputkey, "encrypt")
-	decrypted = crypt(encrypted, userinputkey, "decrypt")
-	print "Encrypted: " + encrypted
-	print "Decrypted: " + decrypted
-elif len(sys.argv) != 3:
-	print "Incorrect number of arguments."
-elif sys.argv[1] == '-e':
-	print crypt(raw_input(), sys.argv[2], "encrypt")
-elif sys.argv[1] == '-d':
-	print crypt(raw_input(), sys.argv[2], "decrypt")
-else:
-	print "Are the arguments in the wrong order?"
+#This is a horrible thing and I hate it
+if __name__ == "__main__":
+	#This is just all the command line stuff. Don't worry about the -test parameter I use that for testing it in my IDE.
+	if len(sys.argv) == 2 and sys.argv[1] == '-test':
+		userinputphrase = raw_input("Phrase: ")
+		userinputkey = raw_input("Key: ")
+		encrypted = crypt(userinputphrase, userinputkey, "encrypt")
+		decrypted = crypt(encrypted, userinputkey, "decrypt")
+		print "Encrypted: " + encrypted
+		print "Decrypted: " + decrypted
+	elif len(sys.argv) != 3:
+		print "Incorrect number of arguments."
+	elif sys.argv[1] == '-e':
+		print crypt(raw_input(), sys.argv[2], "encrypt")
+	elif sys.argv[1] == '-d':
+		print crypt(raw_input(), sys.argv[2], "decrypt")
+	else:
+		print "Are the arguments in the wrong order?"

@@ -19,6 +19,16 @@ def decode(encodinglength, message):
         output += str(unichr(int(message[i:i + encodinglength], 2)))
     return output
 
+def shortdecode(message):
+    userinput = message
+    if ((len(userinput) % 7 == 0) and (len(userinput) % 8 == 0)):
+        print decode(7, userinput)
+        print decode(8, userinput)
+    elif len(userinput) % 7 == 0:
+        print decode(7, userinput)
+    elif len(userinput) % 8 == 0:
+        print decode(8, userinput)
+
 #This is used for encoding so that the outputed binary has the correct number of zeros.
 def fillzeros(length, binary):
     while len(binary) < length:
@@ -39,50 +49,28 @@ def encode(encodinglength, message):
             output+= binary
     return output
 
-#All the command line stuf.
-if len(sys.argv) > 3:
-    print "Too many arguments."
-elif len(sys.argv) == 2 and sys.argv[1] == '-test':
-    encoded = encode(7, raw_input("In:\t\t"))
-    decoded = decode(7, encoded)
-    print "Encoded:\t" + encoded
-    print "Decoded:\t" + decoded
-elif len(sys.argv) == 2 and sys.argv[1] == '-e':
-        print encode(7, raw_input())
-elif len(sys.argv) == 2 and sys.argv[1] == '-d':
-    userinput = raw_input()
-    if ((len(userinput) % 7 == 0) and (len(userinput) % 8 == 0)):
-        print decode(7, userinput)
-        print decode(8, userinput)
-
-    elif len(userinput) % 7 == 0:
-        print decode(7, userinput)
-    elif len(userinput) % 8 == 0:
-        print decode(8, userinput)
-elif len(sys.argv) == 3:
-    check = True
-    try:
-        int(sys.argv[2])
-    except:
-        print "Argument is not a number."
-        check = False
-    if sys.argv[1] == '-e' and check == True:
-        print encode(int(sys.argv[2]), raw_input())
-    elif sys.argv[1] == '-d' and check == True:
-        print decode(int(sys.argv[2]), raw_input())
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+#This is a horrible thing and I hate it
+if __name__ == "__main__":
+    #All the command line stuf.
+    if len(sys.argv) > 3:
+        print "Too many arguments."
+    elif len(sys.argv) == 2 and sys.argv[1] == '-test':
+        encoded = encode(7, raw_input("In:\t\t"))
+        decoded = decode(7, encoded)
+        print "Encoded:\t" + encoded
+        print "Decoded:\t" + decoded
+    elif len(sys.argv) == 2 and sys.argv[1] == '-e':
+            print encode(7, raw_input())
+    elif len(sys.argv) == 2 and sys.argv[1] == '-d':
+        shortdecode(raw_input())
+    elif len(sys.argv) == 3:
+        check = True
+        try:
+            int(sys.argv[2])
+        except:
+            print "Argument is not a number."
+            check = False
+        if sys.argv[1] == '-e' and check == True:
+            print encode(int(sys.argv[2]), raw_input())
+        elif sys.argv[1] == '-d' and check == True:
+            print decode(int(sys.argv[2]), raw_input())
