@@ -8,6 +8,7 @@ path = "/home/aaron/Desktop/ports.conf"
 path2 = "/home/aaron/Desktop/apache2.conf"
             
 def ChangeSetting(setting, value):
+    RemoveExtras(setting)
     exists = False
     for line in fileinput.input(path, inplace=True):
         if line.startswith(setting):
@@ -34,6 +35,21 @@ def HasPortsCall():
             check = True
         print line.rstrip('\n')
     return check
+
+def RemoveExtras(setting):
+    found = False;
+    for line in fileinput.input(path, inplace=True):
+        if found:
+            if line.startswith(setting):
+                print ''
+            else:
+                print line.rstrip('\n')
+        else:
+            if line.startswith(setting):
+                found = True;
+                print line.rstrip('\n')
+            else:
+                print line.rstrip('\n')
 
 
 

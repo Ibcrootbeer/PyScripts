@@ -4,9 +4,14 @@ import fileinput
 import sys
 import os
 
+#Example
+#ConfigSSH.py -p 22
+
+
 path = "/etc/ssh/sshd_config"
             
 def ChangeSetting(setting, value):
+    RemoveExtras(setting)
     exists = False
     for line in fileinput.input(path, inplace=True):
         if line.startswith(setting):
@@ -25,7 +30,22 @@ def RemoveSetting(setting):
             print ''
         else:
             print line.rstrip('\n')
-            
+
+def RemoveExtras(setting):
+    found = False;
+    for line in fileinput.input(path, inplace=True):
+        if found:
+            if line.startswith(setting):
+                print ''
+            else:
+                print line.rstrip('\n')
+        else:
+            if line.startswith(setting):
+                found = True;
+                print line.rstrip('\n')
+            else:
+                print line.rstrip('\n')
+       
 if len(sys.argv) > 5 or len(sys.argv) < 3:
     print "Incorrect number of arguments " + str(len(sys.argv))
 elif len(sys.argv) == 3 and sys.argv[1] == '-p':

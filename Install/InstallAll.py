@@ -35,7 +35,4 @@ os.system("sudo service mysql restart")
 os.system("sudo mysql -u root -h localhost -p")
 print "Finished installing mysql-server"
 
-os.system("netstat -lntu | grep :21")
-os.system("netstat -lntu | grep :22")
-os.system("netstat -lntu | grep :80")
-os.system("netstat -lntu | grep :3306")
+os.system("netstat -lntup | grep ' LISTEN'")
