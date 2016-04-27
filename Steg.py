@@ -40,7 +40,7 @@ def writeToFile(fileToHide):
     if(fileToHide != ''):
         fileToHide = open(fileToHide, 'w')
 
-def readFromFile(): #Do backwards as well
+def readFromFile(fileToSearch): #Do backwards as well
     if(fileToSearch != ''):
         output = ''
         fileToSearch = open(fileToSearch, 'r')
