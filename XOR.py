@@ -49,4 +49,4 @@ except:
     message = encodeBinary(raw_input())
     key = readFileAsBinary("key")
     xord = xor(message, key)
-    sys.stdout.write(decodeBinary(xord))
+    print(decodeBinary(xord)),
