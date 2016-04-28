@@ -2,6 +2,9 @@
 
 import sys
 
+#a b c d e f g h i j k  l  m  n  o  p  q  r  s  t  u  v  w  x  y  z
+#0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+
 '''
 All of my math for the ascii code is done on a scale from 0 to 25 so that's why you see the -97's.
 a=0 b=1 ... So to encrypt it adds the two values together so if the key starts with b and the input starts with c it adds together 1 + 2 to get 3 so it comes out as d. 

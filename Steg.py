@@ -4,6 +4,9 @@
 #strings for printable characters from file
 #####
 
+#The byte method works by replacing every (interval)th byte with the next byte from the file to hide
+#How does the bit method work
+
 import sys
 
 def parseCommandLine():
@@ -43,18 +46,18 @@ def writeToFile(fileToHide):
 def readFromFile(fileToSearch): #Do backwards as well
     if(fileToSearch != ''):
         output = ''
-        fileToSearch = open(fileToSearch, 'r')
-        fromFile = fileToSearch.read(offset)
-        fromFile = fileToSearch.read(1)
-        while(fromFile != ''):
-            if(bit):
-                output += '1' if ord(fromFile) & 0x01 else '0'
-            else:
-                output += fromFile
-                
-            fileToSearch.read(interval - 1)
-            fromFile = fileToSearch.read(1)
-        return output
+        with open(fileToSearch, 'r') as wrapperFile:
+            fromFile = wrapperFile.read(offset)
+            fromFile = wrapperFile.read(1)
+            while(fromFile != ''):
+                if(bit):
+                    output += '1' if ord(fromFile) & 0x01 else '0'
+                else:
+                    output += fromFile
+                    
+                wrapperFile.read(interval - 1)
+                fromFile = wrapperFile.read(1)
+            return output
 
 def writeToFile():
     pass
