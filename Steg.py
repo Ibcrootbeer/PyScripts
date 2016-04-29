@@ -13,8 +13,8 @@ def parseCommandLine():
     global interval
     global bit
     global retrieval
-    global fileToHide
-    global fileToSearch
+    global hidden
+    global wrapper
     global store
     global offset
     
@@ -33,42 +33,44 @@ def parseCommandLine():
             store = True
         if(i[:2] == "-i"): # set interval to file
             interval = int(i[2:])
-        if(i[:2] == "-w"): # set fileToSearch to file
-            fileToSearch = i[2:]
+        if(i[:2] == "-w"): # set wrapper to file
+            wrapper = i[2:]
         if(i[:2] == "-h"): # set hidden file to
-            fileToHide = i[2:]
+            hidden = i[2:]
         counter += 1
 
-def writeToFile(fileToHide):  
-    if(fileToHide != ''):
-        fileToHide = open(fileToHide, 'w')
+def writeToFile(hidden):  
+    if(hidden != ''):
+        hidden = open(hidden, 'w')
 
-def readFromFile(fileToSearch): #Do backwards as well
-    if(fileToSearch != ''):
-        output = ''
-        with open(fileToSearch, 'r') as wrapperFile:
-            fromFile = wrapperFile.read(offset)
+def readByteFromFile(wrapper): #Do backwards as well
+    output = ''
+    with open(wrapper, 'r') as wrapperFile:
+        wrapperFile.read(offset)
+        fromFile = wrapperFile.read(1)
+        while(fromFile != ''):
+            output += fromFile   
+            wrapperFile.read(interval - 1)
             fromFile = wrapperFile.read(1)
-            while(fromFile != ''):
-                if(bit):
-                    output += '1' if ord(fromFile) & 0x01 else '0'
-                else:
-                    output += fromFile
-                    
-                wrapperFile.read(interval - 1)
-                fromFile = wrapperFile.read(1)
-            return output
+        return output
 
-def writeToFile():
-    pass
+def writeByteToFile(fileToHideIn, fileToWrite):
+    counter = 0
+    with open(fileToHideIn, 'w') as wrapperFile:
+        with open(fileToWrite, 'r') as hiddenFile:
+            fromFile = hiddenFile.read(1)
+            while(fromFile != ''):
+                print fromFile
+                fromFile = hiddenFile.read(1)  
 
 interval = 0        #Jumps inbetween bytes to read
 bit = False         #To use the bit method or not DO FROM BACK TO FRONT
-retrieval = False   #To search the wrapper or not
-fileToHide = ""     #The file to hide within the wrapper
-fileToSearch = ""   #The file containing the hidden data we want to search through
+retrieval = False   #To search the wrapper or nots
+hidden = ""         #The file to hide within the wrapper
+wrapper = ""        #The file containing the hidden data we want to search through
 store = False       #To hide the hidden file or not
 offset = 0          #Initial jump to bypass header
 
 parseCommandLine()
-print readFromFile(fileToSearch)
+#print readByteFromFile(wrapper)
+writeByteToFile(wrapper, hidden)
